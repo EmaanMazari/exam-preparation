@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "question": "Web Engineering is about:",
+    "options": {
+      "A": "Repairing computer hardware",
+      "B": "Making mobile phones",
+      "C": "Selling internet packages",
+      "D": "Building and maintaining web applications properly"
+    },
+    "answer": "D",
+    "explanation": "Web Engineering is the application of systematic, disciplined, and quantifiable approaches to the development, operation, and maintenance of web-based applications.",
+    "category": "Web & Internet Fundamentals"
+  },
+  {
+    "id": 2,
+    "question": "Web Engineering uses principles of:",
+    "options": {
+      "A": "Civil engineering",
+      "B": "Mechanical engineering",
+      "C": "Software engineering",
+      "D": "Chemical engineering"
+    },
+    "answer": "C",
+    "explanation": "Web Engineering draws its core foundational concepts, methodologies, and lifecycle processes from Software Engineering.",
+    "category": "Web & Internet Fundamentals"
+  },
+  {
+    "id": 3,
+    "question": "Which is NOT a goal of Web Engineering?",
+    "options": {
+      "A": "Reliable",
+      "B": "Secure",
+      "C": "Usable",
+      "D": "Inefficient"
+    },
+    "answer": "D",
+    "explanation": "The goals of Web Engineering include reliability, security, scalability, usability, and efficiency. 'Inefficient' is the opposite of an engineering goal.",
+    "category": "Web & Internet Fundamentals"
+  },
+  {
+    "id": 4,
+    "question": "A global network of connected computers is called the:",
+    "options": {
+      "A": "Printer",
+      "B": "Keyboard",
+      "C": "Internet",
+      "D": "Monitor"
+    },
+    "answer": "C",
+    "explanation": "The Internet is the global worldwide system of interconnected computer networks utilizing TCP/IP protocols.",
+    "category": "Web & Internet Fundamentals"
+  },
+  {
+    "id": 5,
+    "question": "The Web (WWW) is a ___ that runs on the Internet.",
+    "options": {
+      "A": "Cable",
+      "B": "Mouse",
+      "C": "Service",
+      "D": "Battery"
+    },
+    "answer": "C",
+    "explanation": "The World Wide Web (WWW) is an information service/system running on top of the physical infrastructure of the Internet.",
+    "category": "Web & Internet Fundamentals"
+  },
+  {
+    "id": 6,
+    "question": "Which is a service of the Internet?",
+    "options": {
+      "A": "Photo printing",
+      "B": "Charging",
+      "C": "Email",
+      "D": "Typing"
+    },
+    "answer": "C",
+    "explanation": "Email (electronic mail) along with FTP, VoIP, and the Web are standard network services provided over the Internet.",
+    "category": "Web & Internet Fundamentals"
+  },
+  {
+    "id": 7,
+    "question": "Which statement is correct?",
+    "options": {
+      "A": "Internet is the network, Web is a service",
+      "B": "Web is the network, Internet is a service",
+      "C": "Both are printers",
+      "D": "Both are keyboards"
+    },
+    "answer": "A",
+    "explanation": "The Internet is the underlying physical and networking infrastructure, whereas the Web is an application-level service operating on that infrastructure.",
+    "category": "Web & Internet Fundamentals"
+  },
+  {
+    "id": 8,
+    "question": "Web architecture includes a client, web server, application server and:",
+    "options": {
+      "A": "Printer server",
+      "B": "Game server",
+      "C": "Music server",
+      "D": "Database server"
+    },
+    "answer": "D",
+    "explanation": "Standard multi-tier web architecture consists of Client (tier 1), Web/Application Server (tier 2), and Database Server (tier 3).",
+    "category": "Web Architecture & Components"
+  },
+  {
+    "id": 9,
+    "question": "Software used to view websites is a:",
+    "options": {
+      "A": "Calculator",
+      "B": "Printer",
+      "C": "Scanner",
+      "D": "Web browser"
+    },
+    "answer": "D",
+    "explanation": "A web browser (e.g. Chrome, Firefox, Edge, Safari) is client application software designed to retrieve, format, and render web pages.",
+    "category": "Web Architecture & Components"
+  },
+  {
+    "id": 10,
+    "question": "Browsers understand HTML, CSS and:",
+    "options": {
+      "A": "Photoshop",
+      "B": "JavaScript",
+      "C": "Excel",
+      "D": "Notepad only"
+    },
+    "answer": "B",
+    "explanation": "Modern web browsers natively interpret and execute HTML (markup/structure), CSS (styling/presentation), and JavaScript (behavior/interactivity).",
+    "category": "Web Architecture & Components"
+  },
+  {
+    "id": 11,
+    "question": "Which is a browser feature?",
+    "options": {
+      "A": "Printing paper",
+      "B": "Bookmarks",
+      "C": "Charging",
+      "D": "Cooling"
+    },
+    "answer": "B",
+    "explanation": "Bookmarks (or favorites) allow users to save and quickly navigate to frequently visited website URLs inside a browser.",
+    "category": "Web Architecture & Components"
+  },
+  {
+    "id": 12,
+    "question": "A web server:",
+    "options": {
+      "A": "Prints documents",
+      "B": "Makes phone calls",
+      "C": "Charges batteries",
+      "D": "Stores and delivers web content"
+    },
+    "answer": "D",
+    "explanation": "A web server (such as Apache, Nginx, or IIS) stores website files and serves requested HTTP/HTTPS content to web clients.",
+    "category": "Web Architecture & Components"
+  },
+  {
+    "id": 13,
+    "question": "Which is web server software?",
+    "options": {
+      "A": "Chrome",
+      "B": "Firefox",
+      "C": "Safari",
+      "D": "Apache"
+    },
+    "answer": "D",
+    "explanation": "Apache HTTP Server is open-source web server software. Chrome, Firefox, and Safari are web browsers.",
+    "category": "Web Architecture & Components"
+  },
+  {
+    "id": 14,
+    "question": "A web server acts as a bridge between:",
+    "options": {
+      "A": "Browser and website resources",
+      "B": "Two keyboards",
+      "C": "Two mice",
+      "D": "Two printers"
+    },
+    "answer": "A",
+    "explanation": "A web server bridges the gap by receiving HTTP requests from client browsers and returning corresponding website resources/pages.",
+    "category": "Web Architecture & Components"
+  },
+  {
+    "id": 15,
+    "question": "A static website has content that is:",
+    "options": {
+      "A": "Always changing",
+      "B": "Random",
+      "C": "Fixed",
+      "D": "Personalized for each user"
+    },
+    "answer": "C",
+    "explanation": "Static websites consist of pre-built, fixed files (HTML, CSS, images) delivered to every user without on-the-fly server-side rendering or database queries.",
+    "category": "Static vs. Dynamic Websites"
+  },
+  {
+    "id": 16,
+    "question": "Static websites are built mainly using:",
+    "options": {
+      "A": "PHP and MySQL",
+      "B": "Java and Oracle",
+      "C": "HTML and CSS",
+      "D": "Python and Django"
+    },
+    "answer": "C",
+    "explanation": "Static websites are created predominantly using client-side technologies like HTML (structure) and CSS (styling).",
+    "category": "Static vs. Dynamic Websites"
+  },
+  {
+    "id": 17,
+    "question": "Which is an example of a static website?",
+    "options": {
+      "A": "Online banking",
+      "B": "Online shopping site",
+      "C": "Personal portfolio",
+      "D": "Facebook"
+    },
+    "answer": "C",
+    "explanation": "A personal portfolio or resume site with fixed information is a typical example of a static website that does not require database interaction.",
+    "category": "Static vs. Dynamic Websites"
+  },
+  {
+    "id": 18,
+    "question": "A dynamic website has content that:",
+    "options": {
+      "A": "Never changes",
+      "B": "Can change",
+      "C": "Is only a picture",
+      "D": "Is only a PDF"
+    },
+    "answer": "B",
+    "explanation": "Dynamic websites generate content programmatically in real-time based on database records, user input, time, or session context.",
+    "category": "Static vs. Dynamic Websites"
+  },
+  {
+    "id": 19,
+    "question": "Dynamic websites use server-side languages like:",
+    "options": {
+      "A": "HTML only",
+      "B": "CSS only",
+      "C": "Plain text",
+      "D": "PHP"
+    },
+    "answer": "D",
+    "explanation": "Dynamic websites execute code on the server using languages such as PHP, Python, Node.js, Ruby, or Java before sending HTML to the client.",
+    "category": "Static vs. Dynamic Websites"
+  },
+  {
+    "id": 20,
+    "question": "Which is an example of a dynamic website?",
+    "options": {
+      "A": "Simple portfolio",
+      "B": "Documentation page",
+      "C": "University portal",
+      "D": "Static brochure"
+    },
+    "answer": "C",
+    "explanation": "A university portal is dynamic because student profiles, grades, course registrations, and announcements update continually from a database.",
+    "category": "Static vs. Dynamic Websites"
+  },
+  {
+    "id": 21,
+    "question": "Which feature needs a dynamic website?",
+    "options": {
+      "A": "Fixed text",
+      "B": "Login system",
+      "C": "Fixed image",
+      "D": "Fixed heading"
+    },
+    "answer": "B",
+    "explanation": "A login system requires dynamic server-side authentication, session generation, and database verification, which static sites cannot do alone.",
+    "category": "Static vs. Dynamic Websites"
+  },
+  {
+    "id": 22,
+    "question": "FTP is used to:",
+    "options": {
+      "A": "Make voice calls",
+      "B": "Send emails",
+      "C": "Print pages",
+      "D": "Transfer files"
+    },
+    "answer": "D",
+    "explanation": "FTP (File Transfer Protocol) is a network protocol designed specifically for transferring files between a client and a remote server.",
+    "category": "Internet Services (FTP & VoIP)"
+  },
+  {
+    "id": 23,
+    "question": "FTP is commonly used to:",
+    "options": {
+      "A": "Watch videos",
+      "B": "Play games",
+      "C": "Upload website files to a server",
+      "D": "Edit photos"
+    },
+    "answer": "C",
+    "explanation": "Web developers and administrators commonly use FTP to upload local HTML, scripts, and asset files to a web hosting server.",
+    "category": "Internet Services (FTP & VoIP)"
+  },
+  {
+    "id": 24,
+    "question": "VoIP is used to make:",
+    "options": {
+      "A": "Websites",
+      "B": "Databases",
+      "C": "Printouts",
+      "D": "Voice calls over the Internet"
+    },
+    "answer": "D",
+    "explanation": "VoIP (Voice over Internet Protocol) enables real-time voice calls and multimedia sessions over Internet Protocol (IP) networks.",
+    "category": "Internet Services (FTP & VoIP)"
+  },
+  {
+    "id": 25,
+    "question": "Which is an example of Internet calling?",
+    "options": {
+      "A": "Apache",
+      "B": "MySQL",
+      "C": "Skype",
+      "D": "Nginx"
+    },
+    "answer": "C",
+    "explanation": "Skype, WhatsApp Voice, and Zoom are prominent VoIP applications for voice and video calling over the Internet.",
+    "category": "Internet Services (FTP & VoIP)"
+  },
+  {
+    "id": 26,
+    "question": "SRS stands for:",
+    "options": {
+      "A": "Simple Run System",
+      "B": "Software Requirements Specification",
+      "C": "Software Repair Service",
+      "D": "System Reading Sheet"
+    },
+    "answer": "B",
+    "explanation": "SRS stands for Software Requirements Specification, a comprehensive description of the intended purpose and environment for software under development.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 27,
+    "question": "SRS is prepared:",
+    "options": {
+      "A": "Before development starts",
+      "B": "After the software is sold",
+      "C": "After the computer is turned off",
+      "D": "Never"
+    },
+    "answer": "A",
+    "explanation": "The SRS document is prepared during the requirements engineering phase before coding and system development begin.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 28,
+    "question": "SRS is an agreement between:",
+    "options": {
+      "A": "Two printers",
+      "B": "Two teachers only",
+      "C": "Two keyboards",
+      "D": "Client and development team"
+    },
+    "answer": "D",
+    "explanation": "The SRS serves as a formal contract and mutual agreement between the client/stakeholders and the software development team.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 29,
+    "question": "Functional requirements describe:",
+    "options": {
+      "A": "The color of the room",
+      "B": "The price of the computer",
+      "C": "The weather",
+      "D": "What the software does"
+    },
+    "answer": "D",
+    "explanation": "Functional requirements explicitly specify system features, behaviors, operations, and specific tasks the software must perform.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 30,
+    "question": "Non-functional requirements describe:",
+    "options": {
+      "A": "Only the user names",
+      "B": "Only the file names",
+      "C": "Only the colors of paper",
+      "D": "How well the software works"
+    },
+    "answer": "D",
+    "explanation": "Non-functional requirements specify quality attributes, constraints, performance, security, and operational standards ('how well' the software performs).",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 31,
+    "question": "Which is a functional requirement?",
+    "options": {
+      "A": "Website should load fast",
+      "B": "Website should be secure",
+      "C": "Website should be easy",
+      "D": "Teachers can upload marks"
+    },
+    "answer": "D",
+    "explanation": "'Teachers can upload marks' defines a specific functional task/feature that a user can execute within the system.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 32,
+    "question": "Which is a non-functional requirement?",
+    "options": {
+      "A": "Website should load fast",
+      "B": "Students can log in",
+      "C": "Admin can register students",
+      "D": "Teachers can upload marks"
+    },
+    "answer": "A",
+    "explanation": "'Website should load fast' specifies a performance/quality standard (speed), making it a non-functional requirement.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 33,
+    "question": "Which is NOT a quality of good requirements?",
+    "options": {
+      "A": "Clear",
+      "B": "Complete",
+      "C": "Ambiguous",
+      "D": "Testable"
+    },
+    "answer": "C",
+    "explanation": "Requirements must be clear, complete, consistent, and testable. Requirements should NEVER be ambiguous (unclear or open to multiple interpretations).",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 34,
+    "question": "Which is a part of the SRS Introduction?",
+    "options": {
+      "A": "Cooking",
+      "B": "Purpose",
+      "C": "Sports",
+      "D": "Music"
+    },
+    "answer": "B",
+    "explanation": "The Introduction section of an SRS includes Purpose, Scope, Definitions, References, and Overview of the document.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 35,
+    "question": "Scope tells us:",
+    "options": {
+      "A": "Who won the match",
+      "B": "What to eat",
+      "C": "The color of the logo",
+      "D": "What the software will and will not do"
+    },
+    "answer": "D",
+    "explanation": "The Scope definition clearly establishes the boundaries: what the software will accomplish and what falls outside its deliverables.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 36,
+    "question": "Product Perspective explains:",
+    "options": {
+      "A": "The cost of paper",
+      "B": "The weather",
+      "C": "The color of icons",
+      "D": "How software relates to other systems"
+    },
+    "answer": "D",
+    "explanation": "Product Perspective describes how the software interfaces with and fits into a larger system, existing infrastructure, or family of products.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 37,
+    "question": "Admin, teacher and student are examples of:",
+    "options": {
+      "A": "User classes",
+      "B": "Hardware",
+      "C": "Databases",
+      "D": "Browsers"
+    },
+    "answer": "A",
+    "explanation": "Admin, teacher, student, and guest represent distinct categories of actors or User Classes with different access privileges and workflows.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 38,
+    "question": "\"Users need internet to use the portal\" is an:",
+    "options": {
+      "A": "Appendix",
+      "B": "Assumption",
+      "C": "Printer",
+      "D": "Keyboard"
+    },
+    "answer": "B",
+    "explanation": "An Assumption is a factor believed to be true (e.g., users having active internet connections) that influences project planning and design.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 39,
+    "question": "A printer or biometric device is a:",
+    "options": {
+      "A": "User interface",
+      "B": "Hardware interface",
+      "C": "Software interface",
+      "D": "Data table"
+    },
+    "answer": "B",
+    "explanation": "Printers, barcode scanners, and biometric sensors are physical Hardware Interfaces that interact with the software system.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 40,
+    "question": "HTTPS used for secure communication is a:",
+    "options": {
+      "A": "Communication interface",
+      "B": "Hardware interface",
+      "C": "User interface",
+      "D": "Appendix"
+    },
+    "answer": "A",
+    "explanation": "HTTPS is a network protocol used for encrypted web traffic, categorized under Communication Interfaces in an SRS.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 41,
+    "question": "A login page is an example of a:",
+    "options": {
+      "A": "Hardware interface",
+      "B": "User interface",
+      "C": "Constraint",
+      "D": "Appendix"
+    },
+    "answer": "B",
+    "explanation": "A login page, dashboard, or form is a User Interface (UI) through which human users interact with the software.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 42,
+    "question": "Storing a unique registration number is a:",
+    "options": {
+      "A": "Hardware device",
+      "B": "Browser",
+      "C": "Printer",
+      "D": "Data requirement"
+    },
+    "answer": "D",
+    "explanation": "Storing unique attributes (e.g., registration number, student ID) pertains directly to logical data requirements and database schemas.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 43,
+    "question": "\"Must use the university's approved database\" is a:",
+    "options": {
+      "A": "User class",
+      "B": "Constraint",
+      "C": "Browser",
+      "D": "Printer"
+    },
+    "answer": "B",
+    "explanation": "Restrictions imposed by business rules or technology policies (e.g., must use university's approved database) represent Constraints.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 44,
+    "question": "Acceptance criteria explain:",
+    "options": {
+      "A": "How to cook food",
+      "B": "How to play games",
+      "C": "How to draw",
+      "D": "How requirements will be tested"
+    },
+    "answer": "D",
+    "explanation": "Acceptance criteria define the predefined conditions, tests, and metrics that must be satisfied for a deliverable to be accepted by the client.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 45,
+    "question": "Appendices may include:",
+    "options": {
+      "A": "Cooking recipes",
+      "B": "Sports scores",
+      "C": "Diagrams and sample forms",
+      "D": "Song lyrics"
+    },
+    "answer": "C",
+    "explanation": "Appendices in an SRS document store supplementary materials such as entity relationship diagrams, user interface mockups, sample forms, and flowcharts.",
+    "category": "SRS & Requirements Engineering"
+  },
+  {
+    "id": 46,
+    "question": "In the request-response cycle, the browser first sends:",
+    "options": {
+      "A": "A printer",
+      "B": "A song",
+      "C": "A request",
+      "D": "A battery"
+    },
+    "answer": "C",
+    "explanation": "In the HTTP request-response cycle, the client browser initiates communication by sending an HTTP Request to the server.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 47,
+    "question": "The last step of the cycle is that the browser:",
+    "options": {
+      "A": "Displays the webpage",
+      "B": "Turns off the server",
+      "C": "Deletes the page",
+      "D": "Prints the page"
+    },
+    "answer": "A",
+    "explanation": "Upon receiving and parsing the HTTP response (HTML, CSS, assets), the browser's rendering engine displays (renders) the webpage to the user.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 48,
+    "question": "Web applications generally:",
+    "options": {
+      "A": "Do not need installation on every computer",
+      "B": "Must be installed from a CD",
+      "C": "Work without any browser",
+      "D": "Cannot use the Internet"
+    },
+    "answer": "A",
+    "explanation": "Web applications are accessible directly through a web browser and do not need to be individually installed on every client machine.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 49,
+    "question": "The front-end runs in the:",
+    "options": {
+      "A": "Printer",
+      "B": "Keyboard",
+      "C": "Browser",
+      "D": "Router only"
+    },
+    "answer": "C",
+    "explanation": "The front-end (client side) consists of HTML, CSS, and JavaScript executed natively inside the client's web browser.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 50,
+    "question": "The back-end:",
+    "options": {
+      "A": "Only draws buttons",
+      "B": "Only shows colors",
+      "C": "Processes requests and manages data",
+      "D": "Is only a picture"
+    },
+    "answer": "C",
+    "explanation": "The back-end (server side) processes client requests, executes business logic, interacts with the database, and serves responses.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 51,
+    "question": "A URL is:",
+    "options": {
+      "A": "A type of keyboard",
+      "B": "A type of printer",
+      "C": "The address of a web resource",
+      "D": "A game"
+    },
+    "answer": "C",
+    "explanation": "A URL (Uniform Resource Locator) specifies the distinct web address used to locate and access a resource on the Internet.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 52,
+    "question": "HTTP stands for:",
+    "options": {
+      "A": "High Text Transfer Program",
+      "B": "Home Tool Transfer Protocol",
+      "C": "Hyper Tool Text Page",
+      "D": "HyperText Transfer Protocol"
+    },
+    "answer": "D",
+    "explanation": "HTTP stands for HyperText Transfer Protocol, the foundational application-layer protocol for transmitting web hypermedia documents.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 53,
+    "question": "Data sent through HTTP is generally:",
+    "options": {
+      "A": "Always encrypted",
+      "B": "Always deleted",
+      "C": "Not encrypted",
+      "D": "Always printed"
+    },
+    "answer": "C",
+    "explanation": "Standard HTTP transmits data in clear plain text without encryption, making it susceptible to eavesdropping and interception.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 54,
+    "question": "HTTPS is the ___ version of HTTP.",
+    "options": {
+      "A": "Secure",
+      "B": "Slow",
+      "C": "Broken",
+      "D": "Old"
+    },
+    "answer": "A",
+    "explanation": "HTTPS (HyperText Transfer Protocol Secure) is the secure, encrypted extension of HTTP utilizing SSL/TLS.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 55,
+    "question": "Which is a web application?",
+    "options": {
+      "A": "Notepad",
+      "B": "Gmail",
+      "C": "Paint",
+      "D": "Calculator"
+    },
+    "answer": "B",
+    "explanation": "Gmail is a web application accessed via a web browser that offers interactive email management, unlike desktop apps like Notepad or Paint.",
+    "category": "Request-Response & Web Protocols"
+  },
+  {
+    "id": 56,
+    "question": "In client-server architecture, the client:",
+    "options": {
+      "A": "Requests a service",
+      "B": "Only prints",
+      "C": "Only stores power",
+      "D": "Only cools the server"
+    },
+    "answer": "A",
+    "explanation": "In client-server architecture, the client initiates contact and requests a service or resource from the central server.",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 57,
+    "question": "2-tier architecture has:",
+    "options": {
+      "A": "Three servers",
+      "B": "Only a printer",
+      "C": "Only a keyboard",
+      "D": "Client and Server"
+    },
+    "answer": "D",
+    "explanation": "A 2-tier architecture consists of two primary physical/logical nodes: the Client (User Interface + some logic) and the Server (Database/Backend).",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 58,
+    "question": "An advantage of 2-tier architecture is that it is:",
+    "options": {
+      "A": "Very complex",
+      "B": "Simple",
+      "C": "Impossible to build",
+      "D": "Always expensive"
+    },
+    "answer": "B",
+    "explanation": "2-tier architecture is straightforward, simple to design, and quick to set up for small-scale local systems.",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 59,
+    "question": "A disadvantage of 2-tier architecture is that it is:",
+    "options": {
+      "A": "Less scalable",
+      "B": "Too small to use",
+      "C": "Free of any problem",
+      "D": "Always secure"
+    },
+    "answer": "A",
+    "explanation": "Because client machines connect directly to the database or single server, 2-tier architectures suffer from limited scalability under heavy user loads.",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 60,
+    "question": "3-tier architecture has:",
+    "options": {
+      "A": "One layer",
+      "B": "Three layers",
+      "C": "Two layers",
+      "D": "Ten layers"
+    },
+    "answer": "B",
+    "explanation": "3-tier architecture splits the application into three decoupled tiers: Presentation Tier, Application/Logic Tier, and Data Tier.",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 61,
+    "question": "The three layers are Presentation, Application and:",
+    "options": {
+      "A": "Printer",
+      "B": "Mouse",
+      "C": "Power",
+      "D": "Data"
+    },
+    "answer": "D",
+    "explanation": "The three tiers of 3-tier architecture are Presentation (UI), Application (Business Logic), and Data (Database/Storage).",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 62,
+    "question": "In 3-tier, users do not directly access the:",
+    "options": {
+      "A": "Database",
+      "B": "Browser",
+      "C": "Screen",
+      "D": "Keyboard"
+    },
+    "answer": "A",
+    "explanation": "In 3-tier architecture, the application logic tier mediates all interactions so clients never connect directly to the database.",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 63,
+    "question": "Which is an advantage of 3-tier architecture?",
+    "options": {
+      "A": "Better security",
+      "B": "No layers",
+      "C": "No servers",
+      "D": "No users"
+    },
+    "answer": "A",
+    "explanation": "By isolating the database behind the application tier and enforcing strict middleware access, 3-tier architecture provides significantly superior security.",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 64,
+    "question": "Which is a disadvantage of 3-tier architecture?",
+    "options": {
+      "A": "Cannot be used",
+      "B": "No security",
+      "C": "More complex",
+      "D": "No database"
+    },
+    "answer": "C",
+    "explanation": "3-tier systems require more infrastructure, deployment overhead, and complex maintenance compared to simpler 2-tier setups.",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 65,
+    "question": "Reusability means business logic can be:",
+    "options": {
+      "A": "Used again",
+      "B": "Deleted",
+      "C": "Hidden forever",
+      "D": "Printed"
+    },
+    "answer": "A",
+    "explanation": "Modular separation of business logic in the application tier allows core functions to be reused across different front-ends (web, mobile apps, APIs).",
+    "category": "Multi-Tier Architecture (2-Tier & 3-Tier)"
+  },
+  {
+    "id": 66,
+    "question": "The three main parts of a web app are front-end, back-end and:",
+    "options": {
+      "A": "Printer",
+      "B": "Mouse",
+      "C": "Database",
+      "D": "Speaker"
+    },
+    "answer": "C",
+    "explanation": "A complete modern web application stack comprises the Front-End (client), Back-End (server/API), and Database (persistent storage).",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 67,
+    "question": "The front-end is the part users:",
+    "options": {
+      "A": "See and use",
+      "B": "Cannot see",
+      "C": "Never touch",
+      "D": "Only print"
+    },
+    "answer": "A",
+    "explanation": "The front-end represents the visual interface and interactive elements that end-users directly view, click, and interact with.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 68,
+    "question": "HTML is used for the page:",
+    "options": {
+      "A": "Structure",
+      "B": "Electricity",
+      "C": "Printing",
+      "D": "Cooling"
+    },
+    "answer": "A",
+    "explanation": "HTML (HyperText Markup Language) provides the fundamental skeletal structure and semantics of a web page.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 69,
+    "question": "CSS is used for:",
+    "options": {
+      "A": "Sending email",
+      "B": "Making calls",
+      "C": "Design and colors",
+      "D": "Deleting files"
+    },
+    "answer": "C",
+    "explanation": "CSS (Cascading Style Sheets) defines the visual presentation, styling, layout, typography, and colors of web elements.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 70,
+    "question": "JavaScript adds:",
+    "options": {
+      "A": "Paper",
+      "B": "Interaction",
+      "C": "Power",
+      "D": "Water"
+    },
+    "answer": "B",
+    "explanation": "JavaScript provides client-side programmability, dynamic behavior, asynchronous requests (AJAX), and interactive user feedback.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 71,
+    "question": "Which is part of the front-end?",
+    "options": {
+      "A": "Database tables",
+      "B": "Server racks",
+      "C": "Buttons",
+      "D": "Mail servers"
+    },
+    "answer": "C",
+    "explanation": "Buttons, input forms, navigation menus, and sliders are visual components belonging to the client-side front-end.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 72,
+    "question": "Which is NOT a back-end language?",
+    "options": {
+      "A": "CSS",
+      "B": "Python",
+      "C": "Java",
+      "D": "PHP"
+    },
+    "answer": "A",
+    "explanation": "CSS is a styling stylesheet language used strictly on the front-end, whereas Python, Java, and PHP are server-side back-end languages.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 73,
+    "question": "The back-end handles:",
+    "options": {
+      "A": "Button colors",
+      "B": "Screen brightness",
+      "C": "Paper size",
+      "D": "Business logic"
+    },
+    "answer": "D",
+    "explanation": "The back-end layer executes business rules, user authentication, data processing, calculations, and database transactions.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 74,
+    "question": "Which part runs mainly in the browser?",
+    "options": {
+      "A": "Back-end",
+      "B": "Front-end",
+      "C": "Database",
+      "D": "Mail server"
+    },
+    "answer": "B",
+    "explanation": "Front-end code (HTML, CSS, JS) is downloaded and rendered directly within the user's web browser.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 75,
+    "question": "During login, the user data is checked by the:",
+    "options": {
+      "A": "Printer",
+      "B": "Database",
+      "C": "Mouse",
+      "D": "Speaker"
+    },
+    "answer": "B",
+    "explanation": "During user authentication/login, user credentials submitted by the front-end are validated against stored records in the Database.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 76,
+    "question": "An application server runs:",
+    "options": {
+      "A": "Business logic",
+      "B": "Only music",
+      "C": "Only games",
+      "D": "Only photos"
+    },
+    "answer": "A",
+    "explanation": "An application server hosts and executes the core business logic, API endpoints, and transactional processing of the application.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 77,
+    "question": "An application server can manage user:",
+    "options": {
+      "A": "Furniture",
+      "B": "Clothes",
+      "C": "Sessions",
+      "D": "Food"
+    },
+    "answer": "C",
+    "explanation": "Application servers track client state across multiple requests by managing user sessions and authentication tokens.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 78,
+    "question": "A database server uses a:",
+    "options": {
+      "A": "Printer",
+      "B": "DBMS",
+      "C": "Keyboard",
+      "D": "Speaker"
+    },
+    "answer": "B",
+    "explanation": "A database server utilizes a DBMS (Database Management System) such as MySQL, PostgreSQL, or Oracle to store, query, and manage relational data.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 79,
+    "question": "Which is a database software?",
+    "options": {
+      "A": "Apache",
+      "B": "MySQL",
+      "C": "Chrome",
+      "D": "Skype"
+    },
+    "answer": "B",
+    "explanation": "MySQL is a popular open-source relational Database Management System (DBMS). Apache is a web server; Chrome is a browser; Skype is VoIP.",
+    "category": "Web Stack (Front-End, Back-End, DBMS)"
+  },
+  {
+    "id": 80,
+    "question": "Internet protocols are:",
+    "options": {
+      "A": "Types of paper",
+      "B": "Types of mouse",
+      "C": "Types of screens",
+      "D": "Rules for communication"
+    },
+    "answer": "D",
+    "explanation": "Internet protocols are standardized sets of rules and conventions that govern how devices exchange data across networks.",
+    "category": "Internet & Transport Protocols"
+  },
+  {
+    "id": 81,
+    "question": "DNS changes domain names into:",
+    "options": {
+      "A": "IP addresses",
+      "B": "Emails",
+      "C": "Videos",
+      "D": "Photos"
+    },
+    "answer": "A",
+    "explanation": "DNS (Domain Name System) acts as the phonebook of the Internet, translating human-friendly domain names (e.g., example.com) into numerical IP addresses.",
+    "category": "Internet & Transport Protocols"
+  },
+  {
+    "id": 82,
+    "question": "SMTP is used to:",
+    "options": {
+      "A": "Print pages",
+      "B": "Play music",
+      "C": "Edit photos",
+      "D": "Send email"
+    },
+    "answer": "D",
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is the standard protocol used by email clients and mail transfer agents to send/transmit outgoing emails.",
+    "category": "Internet & Transport Protocols"
+  },
+  {
+    "id": 83,
+    "question": "POP3 is used to:",
+    "options": {
+      "A": "Download email",
+      "B": "Print email",
+      "C": "Delete the Internet",
+      "D": "Make calls"
+    },
+    "answer": "A",
+    "explanation": "POP3 (Post Office Protocol version 3) retrieves and downloads incoming emails from a remote mail server to a local client.",
+    "category": "Internet & Transport Protocols"
+  },
+  {
+    "id": 84,
+    "question": "IMAP keeps emails:",
+    "options": {
+      "A": "Synchronized on devices",
+      "B": "Only on paper",
+      "C": "Only on a printer",
+      "D": "Deleted always"
+    },
+    "answer": "A",
+    "explanation": "IMAP (Internet Message Access Protocol) synchronizes emails on the mail server so messages and folders remain identical across all connected devices.",
+    "category": "Internet & Transport Protocols"
+  },
+  {
+    "id": 85,
+    "question": "Which protocol is reliable?",
+    "options": {
+      "A": "TCP",
+      "B": "UDP",
+      "C": "Printer",
+      "D": "Mouse"
+    },
+    "answer": "A",
+    "explanation": "TCP (Transmission Control Protocol) is connection-oriented and reliable, guaranteeing packet delivery, ordering, and error-checking.",
+    "category": "Internet & Transport Protocols"
+  },
+  {
+    "id": 86,
+    "question": "UDP is:",
+    "options": {
+      "A": "Always guaranteed",
+      "B": "Fast but not guaranteed",
+      "C": "Only for printing",
+      "D": "Only for email"
+    },
+    "answer": "B",
+    "explanation": "UDP (User Datagram Protocol) is a connectionless protocol that emphasizes speed and low latency over reliability and packet delivery guarantees.",
+    "category": "Internet & Transport Protocols"
+  },
+  {
+    "id": 87,
+    "question": "SSH gives:",
+    "options": {
+      "A": "Free food",
+      "B": "Secure remote access",
+      "C": "Printed pages",
+      "D": "Music"
+    },
+    "answer": "B",
+    "explanation": "SSH (Secure Shell) provides encrypted cryptographic network protocol capabilities for secure remote command-line login and server administration.",
+    "category": "Internet & Transport Protocols"
+  },
+  {
+    "id": 88,
+    "question": "Which HTTP method gets data?",
+    "options": {
+      "A": "POST",
+      "B": "DELETE",
+      "C": "PATCH",
+      "D": "GET"
+    },
+    "answer": "D",
+    "explanation": "The HTTP GET method requests data from a specified resource without altering the server's state.",
+    "category": "HTTP Request Methods"
+  },
+  {
+    "id": 89,
+    "question": "Which HTTP method sends data?",
+    "options": {
+      "A": "GET",
+      "B": "POST",
+      "C": "DELETE",
+      "D": "PUT"
+    },
+    "answer": "B",
+    "explanation": "The HTTP POST method submits data to the specified resource, often resulting in state creation or updates on the server.",
+    "category": "HTTP Request Methods"
+  },
+  {
+    "id": 90,
+    "question": "Which HTTP method updates or replaces a resource?",
+    "options": {
+      "A": "GET",
+      "B": "PUT",
+      "C": "POST",
+      "D": "DELETE"
+    },
+    "answer": "B",
+    "explanation": "The HTTP PUT method uploads or replaces the entire target resource with the uploaded request payload.",
+    "category": "HTTP Request Methods"
+  },
+  {
+    "id": 91,
+    "question": "Which HTTP method deletes a resource?",
+    "options": {
+      "A": "GET",
+      "B": "POST",
+      "C": "DELETE",
+      "D": "PUT"
+    },
+    "answer": "C",
+    "explanation": "The HTTP DELETE method requests that the origin server delete the resource identified by the Request-URI.",
+    "category": "HTTP Request Methods"
+  },
+  {
+    "id": 92,
+    "question": "Which HTTP method partially updates a resource?",
+    "options": {
+      "A": "GET",
+      "B": "POST",
+      "C": "PATCH",
+      "D": "DELETE"
+    },
+    "answer": "C",
+    "explanation": "The HTTP PATCH method applies partial modifications to an existing resource, rather than replacing the complete resource like PUT.",
+    "category": "HTTP Request Methods"
+  },
+  {
+    "id": 93,
+    "question": "The first step of FTP is that the client:",
+    "options": {
+      "A": "Closes the connection",
+      "B": "Deletes files",
+      "C": "Connects to the server",
+      "D": "Turns off the server"
+    },
+    "answer": "C",
+    "explanation": "In FTP communication, the client initiates the session by establishing a control connection to the FTP server on port 21.",
+    "category": "Security, Ports & Network Protocols"
+  },
+  {
+    "id": 94,
+    "question": "SFTP uses:",
+    "options": {
+      "A": "SSH",
+      "B": "Paper",
+      "C": "Mouse",
+      "D": "Speaker"
+    },
+    "answer": "A",
+    "explanation": "SFTP (SSH File Transfer Protocol) runs over an encrypted Secure Shell (SSH) connection to safely transfer files.",
+    "category": "Security, Ports & Network Protocols"
+  },
+  {
+    "id": 95,
+    "question": "FTPS uses:",
+    "options": {
+      "A": "Paper",
+      "B": "TLS",
+      "C": "Mouse",
+      "D": "Speaker"
+    },
+    "answer": "B",
+    "explanation": "FTPS (FTP over SSL/TLS) secures standard FTP connections by wrapping them in SSL/TLS encryption.",
+    "category": "Security, Ports & Network Protocols"
+  },
+  {
+    "id": 96,
+    "question": "SSL/TLS helps to verify the identity of the server. This is called:",
+    "options": {
+      "A": "Printing",
+      "B": "Authentication",
+      "C": "Charging",
+      "D": "Typing"
+    },
+    "answer": "B",
+    "explanation": "Authentication is the security process by which SSL/TLS certificates verify and prove the legitimate identity of a server.",
+    "category": "Security, Ports & Network Protocols"
+  },
+  {
+    "id": 97,
+    "question": "POP3 over SSL/TLS uses port:",
+    "options": {
+      "A": "995",
+      "B": "110",
+      "C": "21",
+      "D": "80"
+    },
+    "answer": "A",
+    "explanation": "POP3 secured over SSL/TLS (POP3S) by default listens and communicates on TCP port 995.",
+    "category": "Security, Ports & Network Protocols"
+  },
+  {
+    "id": 98,
+    "question": "Standard POP3 uses port:",
+    "options": {
+      "A": "995",
+      "B": "110",
+      "C": "443",
+      "D": "8080"
+    },
+    "answer": "B",
+    "explanation": "Unencrypted standard POP3 communications default to TCP port 110 (while SMTP is port 25, HTTP is 80, HTTPS is 443).",
+    "category": "Security, Ports & Network Protocols"
+  },
+  {
+    "id": 99,
+    "question": "TCP uses a three-way handshake to:",
+    "options": {
+      "A": "Print a page",
+      "B": "Charge a phone",
+      "C": "Play music",
+      "D": "Make a connection"
+    },
+    "answer": "D",
+    "explanation": "TCP establishes a reliable connection between sender and receiver using a three-way handshake: SYN, SYN-ACK, ACK.",
+    "category": "Security, Ports & Network Protocols"
+  },
+  {
+    "id": 100,
+    "question": "Which protocol does addressing and routing of packets?",
+    "options": {
+      "A": "IP",
+      "B": "SMTP",
+      "C": "POP3",
+      "D": "FTP"
+    },
+    "answer": "A",
+    "explanation": "IP (Internet Protocol) handles logical addressing and packet routing across network boundaries to deliver packets to destination hosts.",
+    "category": "Security, Ports & Network Protocols"
+  }
+]

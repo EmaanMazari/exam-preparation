@@ -1,0 +1,1952 @@
+[
+  {
+    "id": 1,
+    "question": "Verification in software engineering is best summarised by which question?",
+    "options": {
+      "A": "Are we building the product right?",
+      "B": "Are we building the right product?",
+      "C": "Is the product profitable for the client?",
+      "D": "Has the end user formally accepted the product?"
+    },
+    "answer": "A",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Verification asks 'Are we building the product right?' ensuring conformance to specifications and standards."
+  },
+  {
+    "id": 2,
+    "question": "Validation primarily emphasises which of the following?",
+    "options": {
+      "A": "Fitness of the product for its intended use",
+      "B": "Conformance of work products to their specifications",
+      "C": "Compliance with coding-style guidelines",
+      "D": "Reduction of the total number of test cases"
+    },
+    "answer": "A",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Validation asks 'Are we building the right product?' focusing on fitness for intended user needs and requirements."
+  },
+  {
+    "id": 3,
+    "question": "An 'error' in the terminology of this course is:",
+    "options": {
+      "A": "A flaw introduced into a work product",
+      "B": "An observable deviation from expected behaviour during execution",
+      "C": "A test case whose actual result differs from the expected result",
+      "D": "A human mistake or incorrect decision"
+    },
+    "answer": "D",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "An 'error' is a human action, mistake, or incorrect decision that produces an unintended result."
+  },
+  {
+    "id": 4,
+    "question": "A 'defect' is best defined as:",
+    "options": {
+      "A": "A flaw introduced into a work product",
+      "B": "A human mistake or incorrect decision",
+      "C": "An observable deviation seen while the software runs",
+      "D": "A document describing the test environment"
+    },
+    "answer": "A",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "A 'defect' (bug or fault) is an imperfection or flaw introduced into a software work product (code, requirements, design)."
+  },
+  {
+    "id": 5,
+    "question": "A 'failure' is best defined as:",
+    "options": {
+      "A": "A mistake made by a developer while thinking",
+      "B": "A flaw that exists silently in the source code",
+      "C": "A weakness in the test plan",
+      "D": "An observable deviation from expected behaviour during execution"
+    },
+    "answer": "D",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "A 'failure' is an observable deviation where the software fails to perform its required functions within specified limits during runtime."
+  },
+  {
+    "id": 6,
+    "question": "Which statement about defects and failures is correct?",
+    "options": {
+      "A": "Every defect causes a failure immediately after deployment",
+      "B": "A defect may remain latent until a triggering condition causes a failure",
+      "C": "Defects exist only in executable code, never in requirements or design",
+      "D": "A failure is a human mistake made during coding"
+    },
+    "answer": "B",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "A defect can lie dormant/latent in code until an execution path and input condition trigger a visible failure."
+  },
+  {
+    "id": 7,
+    "question": "Which core testing principle states that passing tests cannot guarantee correctness?",
+    "options": {
+      "A": "Early testing saves cost and reduces rework",
+      "B": "Defects cluster in a small number of components",
+      "C": "Testing shows the presence, not the absence, of defects",
+      "D": "Repeated tests lose effectiveness over time"
+    },
+    "answer": "C",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "The fundamental testing principle states: 'Testing shows the presence of defects, not their absence.' Passing tests cannot prove 100% bug-free software."
+  },
+  {
+    "id": 8,
+    "question": "Why is exhaustive testing usually impossible?",
+    "options": {
+      "A": "The number of possible inputs, states and paths is typically far too large",
+      "B": "Testers are not allowed to repeat the same test",
+      "C": "Exhaustive testing only works for graphical interfaces",
+      "D": "Test oracles do not exist for most programs"
+    },
+    "answer": "A",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Exhaustive testing is impossible due to the infinite combination of inputs, system states, and timing paths."
+  },
+  {
+    "id": 9,
+    "question": "The principle 'early testing saves cost and reduces rework' implies that:",
+    "options": {
+      "A": "Testing should start only after the code is complete",
+      "B": "Unit testing should be skipped in favour of system testing",
+      "C": "Defects found early are always cheaper to ignore",
+      "D": "V&V activities should begin in the requirements and design phases"
+    },
+    "answer": "D",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Finding and fixing defects early (in requirements and design) is exponentially cheaper than fixing them post-release."
+  },
+  {
+    "id": 10,
+    "question": "The principle of 'defect clustering' states that:",
+    "options": {
+      "A": "Defects are evenly distributed across all modules",
+      "B": "Defects only occur in newly written code",
+      "C": "Defects always occur in the user interface",
+      "D": "A small number of components contain most of the defects"
+    },
+    "answer": "D",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Defect clustering (Pareto principle / 80-20 rule) indicates that a majority of operational defects are found in a small fraction of modules."
+  },
+  {
+    "id": 11,
+    "question": "Which principle explains why the same test suite run repeatedly may stop finding new defects?",
+    "options": {
+      "A": "Exhaustive testing is usually impossible",
+      "B": "Testing shows presence, not absence, of defects",
+      "C": "Repeated tests can lose effectiveness; tests need evolution",
+      "D": "Early testing saves cost"
+    },
+    "answer": "C",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "The Pesticide Paradox states that running identical tests repeatedly causes them to lose effectiveness; tests must be continuously evolved."
+  },
+  {
+    "id": 12,
+    "question": "A 'test oracle' is:",
+    "options": {
+      "A": "A tool that automatically fixes defects",
+      "B": "A mechanism or source used to determine the expected behaviour",
+      "C": "The hardware on which tests are executed",
+      "D": "A document listing all defects found"
+    },
+    "answer": "B",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "A test oracle is an independent source or mechanism (specs, benchmark, domain expert) used to determine expected outcomes."
+  },
+  {
+    "id": 13,
+    "question": "The 'test environment' consists of:",
+    "options": {
+      "A": "Hardware, software, data and configuration used for testing",
+      "B": "Only the source code under test",
+      "C": "Only the test cases and their expected results",
+      "D": "The team members assigned to testing"
+    },
+    "answer": "A",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "The test environment comprises hardware, software, network configurations, test data, and tooling used to execute tests."
+  },
+  {
+    "id": 14,
+    "question": "According to the slides, quality is best described as:",
+    "options": {
+      "A": "The absence of all defects found during testing",
+      "B": "Conformance to stated and implied requirements",
+      "C": "Meeting the project deadline and budget",
+      "D": "The number of test cases executed"
+    },
+    "answer": "B",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Quality is formally defined as conformance to stated and implied requirements and customer satisfaction."
+  },
+  {
+    "id": 15,
+    "question": "Which statement correctly relates quality assurance (QA) and testing?",
+    "options": {
+      "A": "QA and testing are identical activities",
+      "B": "Testing prevents defects, while QA only detects them",
+      "C": "QA emphasises prevention and process, while testing supplies evidence about product behaviour",
+      "D": "QA is performed only after testing is finished"
+    },
+    "answer": "C",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "QA focuses on process improvement and defect prevention; testing is quality control providing empirical evidence of product behavior."
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is a legitimate objective of testing?",
+    "options": {
+      "A": "Prove that the software is completely defect-free",
+      "B": "Provide information for release decisions",
+      "C": "Remove the need for requirements reviews",
+      "D": "Guarantee zero failures in operation"
+    },
+    "answer": "B",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Testing cannot prove zero defects; its primary objective is to find defects, reduce risk, and provide confidence/data for release decisions."
+  },
+  {
+    "id": 17,
+    "question": "In the V&V-across-the-SDLC view, which pair is correctly matched?",
+    "options": {
+      "A": "Requirements: regression testing and monitoring",
+      "B": "Design/code: acceptance testing",
+      "C": "Release/operation: static analysis and inspections",
+      "D": "Requirements: reviews and testability analysis"
+    },
+    "answer": "D",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "During the requirements phase, verification and validation involve formal reviews, inspections, and testability analysis."
+  },
+  {
+    "id": 18,
+    "question": "A developer misunderstands a discount rule (1), writes a wrong condition in the code (2), and a customer is overcharged at checkout (3). Which classification is correct?",
+    "options": {
+      "A": "(1) defect, (2) error, (3) failure",
+      "B": "(1) error, (2) defect, (3) failure",
+      "C": "(1) failure, (2) defect, (3) error",
+      "D": "(1) error, (2) failure, (3) defect"
+    },
+    "answer": "B",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Misunderstanding a business rule is a human Error (1), writing erroneous code is introducing a Defect (2), and charging the wrong total during checkout is an observed Failure (3)."
+  },
+  {
+    "id": 19,
+    "question": "A system is built exactly according to its signed-off specification, but users find it useless for their real daily tasks. Which conclusion is most accurate?",
+    "options": {
+      "A": "Verification may have passed, but validation has failed",
+      "B": "Both verification and validation have passed",
+      "C": "Verification failed, validation passed",
+      "D": "Neither applies because the product is complete"
+    },
+    "answer": "A",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Conforming to a bad specification means verification passed (built according to spec), but validation failed (did not meet real user needs)."
+  },
+  {
+    "id": 20,
+    "question": "All 500 executed test cases passed. What is the most defensible conclusion?",
+    "options": {
+      "A": "The software is defect-free",
+      "B": "No failures were observed by those tests; this does not prove the absence of defects",
+      "C": "Defect density is zero in every module",
+      "D": "Further testing is unnecessary because testing was exhaustive"
+    },
+    "answer": "B",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Passing all test cases only proves that no failures occurred under those specific test inputs; it never guarantees the absence of defects."
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is a VALIDATION activity rather than a verification activity?",
+    "options": {
+      "A": "Inspecting the design document against the requirements specification",
+      "B": "Running static analysis on the source code",
+      "C": "Letting representative users try the software in a realistic workflow to see whether it meets their needs",
+      "D": "Reviewing requirements for testability"
+    },
+    "answer": "C",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Letting real users test the system in realistic workflows checks fitness for purpose, which is validation."
+  },
+  {
+    "id": 22,
+    "question": "A regression suite has run unchanged for years and has not found a new defect in months. The best interpretation is:",
+    "options": {
+      "A": "The product is certainly defect-free",
+      "B": "Tests must never be modified once approved",
+      "C": "Testing can now be stopped permanently",
+      "D": "The suite may have lost effectiveness and should be reviewed and evolved; it is not proof of defect-free software"
+    },
+    "answer": "D",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Tests that never fail over long periods need review and revision (Pesticide Paradox); it does not prove the software is defect-free."
+  },
+  {
+    "id": 23,
+    "question": "70% of reported defects come from the payment module. How should this evidence be used?",
+    "options": {
+      "A": "Stop testing all other modules",
+      "B": "Reduce payment testing because it already has many bug reports",
+      "C": "Increase test focus on the payment module while still testing the other components",
+      "D": "Assume the payment module is now fixed and defect-free"
+    },
+    "answer": "C",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "When defects cluster in one module (e.g. 70% in payment), testing effort should be intensified there while continuing coverage elsewhere."
+  },
+  {
+    "id": 24,
+    "question": "A tester reports a failure but cannot say which input data or configuration produced it, so nobody can reproduce it. Which quality of test evidence is violated?",
+    "options": {
+      "A": "Defect clustering",
+      "B": "Early testing",
+      "C": "Independence of the oracle",
+      "D": "Reproducibility and traceability"
+    },
+    "answer": "D",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "A test failure report must include exact steps, inputs, and configuration to ensure reproducibility and traceability."
+  },
+  {
+    "id": 25,
+    "question": "Which of the following can NOT serve as a reliable test oracle?",
+    "options": {
+      "A": "The approved requirements specification",
+      "B": "The knowledge of a domain expert",
+      "C": "The actual output of the software under test, accepted without comparison to any independent source",
+      "D": "A trusted reference implementation\nSoftware Quality, Testing Roles and the Testing Life Cycle"
+    },
+    "answer": "C",
+    "category": "Intro to V&V and Testing Principles",
+    "explanation": "Accepting the software's own unverified output as expected output is a flawed circular oracle; an oracle must come from an independent standard."
+  },
+  {
+    "id": 26,
+    "question": "Quality Assurance (QA) is best characterised as:",
+    "options": {
+      "A": "Process-oriented and preventive",
+      "B": "Product-oriented and detective",
+      "C": "Execution-oriented and reactive",
+      "D": "Tool-oriented and automated"
+    },
+    "answer": "A",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Quality Assurance (QA) is proactive, process-driven, and aimed at preventing defects throughout development."
+  },
+  {
+    "id": 27,
+    "question": "Quality Control (QC) is best characterised as:",
+    "options": {
+      "A": "Process-oriented and preventive",
+      "B": "Standards-oriented and advisory",
+      "C": "Product-oriented and detective",
+      "D": "Schedule-oriented and administrative"
+    },
+    "answer": "C",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Quality Control (QC) is reactive, product-focused, and aimed at detecting defects in deliverables via inspection and testing."
+  },
+  {
+    "id": 28,
+    "question": "Which statement about testing and QA is correct?",
+    "options": {
+      "A": "Testing is a QA activity that replaces QC",
+      "B": "Testing makes QA unnecessary",
+      "C": "Testing is a major QC activity but does not replace QA",
+      "D": "Testing and QA mean exactly the same thing"
+    },
+    "answer": "C",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Testing is a core Quality Control activity that supplies empirical feedback, but it does not replace the broader preventive QA process."
+  },
+  {
+    "id": 29,
+    "question": "Which responsibility belongs mainly to the developer?",
+    "options": {
+      "A": "Unit tests, debugging and code quality",
+      "B": "Process audits and standards enforcement",
+      "C": "Resource estimation and stakeholder reporting",
+      "D": "Independent acceptance of the final release"
+    },
+    "answer": "A",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Developers primarily own unit testing, debugging, code refactoring, and low-level component quality."
+  },
+  {
+    "id": 30,
+    "question": "Which set of responsibilities describes the tester?",
+    "options": {
+      "A": "Test design, execution, defect investigation and reporting",
+      "B": "Process assurance, standards and audits",
+      "C": "Planning, estimation and resource allocation",
+      "D": "Debugging and fixing code defects"
+    },
+    "answer": "A",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Testers are responsible for test design, test execution, investigating anomalies, and writing clear defect reports."
+  },
+  {
+    "id": 31,
+    "question": "The QA engineer is mainly responsible for:",
+    "options": {
+      "A": "Writing unit tests for new classes",
+      "B": "Process assurance, standards, audits and improvement",
+      "C": "Estimating the testing schedule",
+      "D": "Executing manual test cases daily"
+    },
+    "answer": "B",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "The QA Engineer develops quality plans, audits processes, enforces organizational standards, and guides continuous improvement."
+  },
+  {
+    "id": 32,
+    "question": "Which role is responsible for planning, estimation, resources, risk and stakeholder reporting?",
+    "options": {
+      "A": "Test manager",
+      "B": "Developer",
+      "C": "Tester",
+      "D": "QA engineer"
+    },
+    "answer": "A",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "The Test Manager handles test strategy, schedule estimation, resource allocation, risk mitigation, and executive reporting."
+  },
+  {
+    "id": 33,
+    "question": "Why is independence valued in testing?",
+    "options": {
+      "A": "Independent testers never make mistakes",
+      "B": "It removes the need for test planning",
+      "C": "It always speeds up feedback",
+      "D": "Independent review can reduce confirmation bias"
+    },
+    "answer": "D",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Independent testers lack the developer's confirmation bias, enabling them to find subtle discrepancies and corner cases."
+  },
+  {
+    "id": 34,
+    "question": "What is the main drawback of excessive separation between developers and testers?",
+    "options": {
+      "A": "It increases confirmation bias",
+      "B": "It makes defects harder to report honestly",
+      "C": "It eliminates the need for communication",
+      "D": "It can slow feedback"
+    },
+    "answer": "D",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Excessive physical or cultural silos between development and test teams delay feedback loops and impede collaboration."
+  },
+  {
+    "id": 35,
+    "question": "Which action is consistent with ethical software testing?",
+    "options": {
+      "A": "Delaying bad news until after the release",
+      "B": "Reporting defects honestly, even when the news is inconvenient",
+      "C": "Reporting only defects that are easy to fix",
+      "D": "Reporting only defects found by senior staff"
+    },
+    "answer": "B",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Software testing ethics require transparent, unbiased reporting of all identified defects regardless of project pressure."
+  },
+  {
+    "id": 36,
+    "question": "Which practice reflects ethical handling of test data?",
+    "options": {
+      "A": "Sharing production passwords in the team chat for convenience",
+      "B": "Copying real customer data to personal laptops",
+      "C": "Posting screenshots with live data on public forums",
+      "D": "Protecting confidential data and credentials"
+    },
+    "answer": "D",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Ethical testing requires protecting sensitive customer data, masking personally identifiable information, and safeguarding credentials."
+  },
+  {
+    "id": 37,
+    "question": "Which is the correct order of the Software Testing Life Cycle (STLC) as presented in the slides?",
+    "options": {
+      "A": "Planning → design → analysis → execution → implementation → closure → reporting",
+      "B": "Analysis → planning → execution → design → implementation → reporting → closure",
+      "C": "Planning → execution → analysis → design → reporting → implementation → closure",
+      "D": "Planning → analysis → design → implementation → execution → reporting → closure"
+    },
+    "answer": "D",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "The standard STLC phases are: Planning -> Analysis -> Design -> Implementation -> Execution -> Reporting -> Closure."
+  },
+  {
+    "id": 38,
+    "question": "Which item is NOT normally part of test planning?",
+    "options": {
+      "A": "Objectives and scope",
+      "B": "Risks, resources and schedule",
+      "C": "Execution logs of tests that have not yet been run",
+      "D": "Environments and assumptions"
+    },
+    "answer": "C",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Execution logs of unexecuted tests cannot exist during planning; planning establishes scope, risks, schedule, and resources."
+  },
+  {
+    "id": 39,
+    "question": "Entry and exit criteria are specified in order to:",
+    "options": {
+      "A": "Define when a test activity may start and when it can be considered complete",
+      "B": "Assign blame for defects",
+      "C": "Replace the traceability matrix",
+      "D": "Decide the programming language"
+    },
+    "answer": "A",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Entry criteria define prerequisite conditions to start a phase; exit criteria determine when a test phase has met its completion goals."
+  },
+  {
+    "id": 40,
+    "question": "In test planning, test techniques should be selected according to:",
+    "options": {
+      "A": "Tester preference only",
+      "B": "The cheapest available tool",
+      "C": "The order in which modules were coded",
+      "D": "Risk and requirements"
+    },
+    "answer": "D",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Selecting testing techniques (black-box, white-box, boundary analysis) should be driven by risk levels and requirement complexity."
+  },
+  {
+    "id": 41,
+    "question": "A defect report is:",
+    "options": {
+      "A": "A document defining scope, schedule and resources",
+      "B": "A table mapping requirements to test cases",
+      "C": "An artefact that documents a discovered defect or failure so it can be investigated and tracked",
+      "D": "A dashboard summarising overall coverage"
+    },
+    "answer": "C",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "A defect report documents detailed anomaly information (steps to reproduce, logs, severity, environment) for investigation."
+  },
+  {
+    "id": 42,
+    "question": "How do agile teams treat STLC activities?",
+    "options": {
+      "A": "They skip planning and closure entirely",
+      "B": "They perform them continuously within short cycles",
+      "C": "They perform all of them only once at the end of the project",
+      "D": "They hand them all to a separate team after release"
+    },
+    "answer": "B",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "In Agile methodologies, STLC activities are executed iteratively and continuously within each short sprint."
+  },
+  {
+    "id": 43,
+    "question": "A team notices recurring requirement-related defects and revises its requirements-review checklist to prevent them. This is primarily:",
+    "options": {
+      "A": "A QC (detective) activity",
+      "B": "Test execution",
+      "C": "A QA (preventive, process-improvement) activity",
+      "D": "Defect reporting"
+    },
+    "answer": "C",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Updating a requirements review checklist to stop similar errors from recurring is a preventive QA process improvement."
+  },
+  {
+    "id": 44,
+    "question": "A manager asks the tester to leave a serious open defect out of the release report to avoid delaying the launch. The tester should:",
+    "options": {
+      "A": "Remove it from the report to keep the manager happy",
+      "B": "Mark it as fixed without verification",
+      "C": "Mention it only verbally and not in writing",
+      "D": "Report the defect honestly with supporting evidence"
+    },
+    "answer": "D",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Professional ethics dictate reporting critical defects objectively with evidence, even when facing management pushback."
+  },
+  {
+    "id": 45,
+    "question": "A tester is finishing test design. Which STLC activity logically comes next?",
+    "options": {
+      "A": "Test implementation (e.g., preparing data, scripts and environment)",
+      "B": "Test closure",
+      "C": "Test planning",
+      "D": "Test reporting"
+    },
+    "answer": "A",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "After test design (identifying test conditions and cases), test implementation follows (creating test scripts, data, and environments)."
+  },
+  {
+    "id": 46,
+    "question": "Which project is the BEST candidate for a high degree of testing independence?",
+    "options": {
+      "A": "A small internal prototype used by one developer",
+      "B": "A safety-critical medical device",
+      "C": "A personal hobby script",
+      "D": "A throw-away demo for a classroom"
+    },
+    "answer": "B",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Safety-critical applications (such as medical devices or avionics) require the highest degree of independent V&V."
+  },
+  {
+    "id": 47,
+    "question": "While executing tests, a tester finds an ambiguous requirement and goes back to refine the test conditions. This illustrates that:",
+    "options": {
+      "A": "The STLC must always be strictly sequential",
+      "B": "STLC activities may overlap and iterate",
+      "C": "Test planning was unnecessary",
+      "D": "Test closure has been completed"
+    },
+    "answer": "B",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Finding ambiguity during execution and revisiting test design demonstrates the iterative, overlapping nature of STLC."
+  },
+  {
+    "id": 48,
+    "question": "A dashboard shows a 100% pass rate because the failing tests were quietly removed from the run. This is:",
+    "options": {
+      "A": "Good practice to keep reports clean",
+      "B": "An acceptable use of exit criteria",
+      "C": "An ethical violation (manipulating metrics to create a false quality picture)",
+      "D": "A normal form of risk-based testing"
+    },
+    "answer": "C",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Hiding or removing failed tests from a report is an unethical distortion of quality metrics."
+  },
+  {
+    "id": 49,
+    "question": "Which scenario best shows the overlap between QA and testing?",
+    "options": {
+      "A": "A developer writes a unit test",
+      "B": "Test results are analysed to find a process weakness, and the process is then improved",
+      "C": "A tester logs a defect with screenshots",
+      "D": "A manager prepares the project schedule"
+    },
+    "answer": "B",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "Using test findings to analyze root causes and optimize development processes exemplifies the integration of testing with QA."
+  },
+  {
+    "id": 50,
+    "question": "Which artefact allows the team to see whether any requirement has no corresponding test case?",
+    "options": {
+      "A": "Execution log",
+      "B": "Defect report",
+      "C": "Traceability matrix",
+      "D": "Summary report\nUse Case Modeling – I"
+    },
+    "answer": "C",
+    "category": "Software Quality, Roles & STLC",
+    "explanation": "A Requirements Traceability Matrix (RTM) maps requirements to test cases to verify complete coverage and uncover gaps."
+  },
+  {
+    "id": 51,
+    "question": "A use case is best defined as:",
+    "options": {
+      "A": "A class diagram showing attributes and operations",
+      "B": "A description of a set of action sequences, including variants, that yields an observable result of value to an actor",
+      "C": "A list of all non-functional requirements",
+      "D": "The source code that implements a feature"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "A use case describes a sequence of interactions between an actor and the system that yields an observable result of value."
+  },
+  {
+    "id": 52,
+    "question": "A use case specifies:",
+    "options": {
+      "A": "How the system is implemented internally",
+      "B": "Which programming language is used",
+      "C": "Which database tables are updated",
+      "D": "What the system does, without specifying how it does it"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Use cases define external behavioral requirements ('what' the system does), hiding internal design ('how')."
+  },
+  {
+    "id": 53,
+    "question": "A use case represents:",
+    "options": {
+      "A": "A functional requirement of the system as a whole",
+      "B": "A non-functional quality attribute",
+      "C": "A single class in the design",
+      "D": "A hardware component"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Use cases model system-level functional requirements from the perspective of an external actor."
+  },
+  {
+    "id": 54,
+    "question": "An actor represents:",
+    "options": {
+      "A": "A coherent set of roles that users of use cases play when interacting with them",
+      "B": "A specific database record",
+      "C": "A class inside the system",
+      "D": "A test case"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "An actor characterizes an outside role played by a user or external entity when interacting with the system."
+  },
+  {
+    "id": 55,
+    "question": "Which of the following can be an actor?",
+    "options": {
+      "A": "Only a human user",
+      "B": "Only the system under development",
+      "C": "A human, a hardware device or another system",
+      "D": "Only a database"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Actors can be human users, hardware devices (sensors, printers), or external software systems."
+  },
+  {
+    "id": 56,
+    "question": "The UML graphical notation for a use case and an actor respectively is:",
+    "options": {
+      "A": "A rectangle and an ellipse",
+      "B": "A stick figure and a diamond",
+      "C": "An ellipse and a stick figure",
+      "D": "A circle and a rectangle"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "In UML standard notation, a use case is drawn as an ellipse/oval, and an actor is represented as a stick figure."
+  },
+  {
+    "id": 57,
+    "question": "Use case names are normally written as:",
+    "options": {
+      "A": "Long descriptive paragraphs",
+      "B": "Short active verb phrases",
+      "C": "Passive noun-only phrases",
+      "D": "Class names in camel case"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Use case names are concisely phrased using active verbs followed by nouns (e.g. 'Place Order', 'Validate User')."
+  },
+  {
+    "id": 58,
+    "question": "A 'simple name' of a use case differs from its 'path name' in that:",
+    "options": {
+      "A": "The simple name includes the actor's name",
+      "B": "The path name contains the flow of events",
+      "C": "The simple name is always written in capitals",
+      "D": "The path name is prefixed by the name of the package in which the use case lives"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "A path name includes the containing package namespace (e.g., 'Sensors::Calibrate'), whereas a simple name is just 'Calibrate'."
+  },
+  {
+    "id": 59,
+    "question": "Which relationships among use cases are used to factor common and variant behaviour?",
+    "options": {
+      "A": "Aggregation, composition and inheritance",
+      "B": "Association, multiplicity and navigation",
+      "C": "Realization, dependency and refinement",
+      "D": "Generalization, include and extend"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Use case relationships for reusing and factoring behavior are Generalization, «include», and «extend»."
+  },
+  {
+    "id": 60,
+    "question": "Use cases applied to a whole system are an excellent source of:",
+    "options": {
+      "A": "Integration and system tests",
+      "B": "Unit tests for every method",
+      "C": "Compiler optimisations",
+      "D": "Database schema definitions"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "System-level use cases directly form the foundation for end-to-end integration and system test scenarios."
+  },
+  {
+    "id": 61,
+    "question": "A use case diagram contains:",
+    "options": {
+      "A": "Classes, objects and messages only",
+      "B": "Use cases, actors, and their dependency, generalization and association relationships",
+      "C": "States and transitions only",
+      "D": "Components and nodes only"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "A use case diagram models actors, use cases, and relationships (associations, includes, extends, generalizations)."
+  },
+  {
+    "id": 62,
+    "question": "In the actor hierarchy 'Customer' and 'Commercial Customer', the relationship is:",
+    "options": {
+      "A": "Generalization (Commercial Customer is a specialised Customer)",
+      "B": "Include",
+      "C": "Extend",
+      "D": "Aggregation"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "A Commercial Customer is a specialized type of Customer, represented by a Generalization relationship."
+  },
+  {
+    "id": 63,
+    "question": "Which question helps identify use cases?",
+    "options": {
+      "A": "Which programming patterns will be used?",
+      "B": "Does the system store information, and which actors create, read, update or delete it?",
+      "C": "How many classes are needed?",
+      "D": "Which server brand is cheapest?"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "CRUD interactions (create, read, update, delete) on persistent business data help identify candidate use cases."
+  },
+  {
+    "id": 64,
+    "question": "Which of the following is typically a candidate use case that is often overlooked?",
+    "options": {
+      "A": "Choosing a font for the user interface",
+      "B": "Writing the system's source code",
+      "C": "Startup, shutdown, diagnostics, installation or training",
+      "D": "Naming the project folders"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "System maintenance functions like startup, shutdown, backup, diagnostics, and archiving are crucial but often neglected use cases."
+  },
+  {
+    "id": 65,
+    "question": "In use case documentation, a precondition is:",
+    "options": {
+      "A": "The state the system must be in at the start of the use case",
+      "B": "The state the system must be in at the end of the use case",
+      "C": "A variant of the basic flow",
+      "D": "A list of defects found in the use case"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "A precondition defines the mandatory state the system must satisfy before a use case can commence."
+  },
+  {
+    "id": 66,
+    "question": "The flow of events of a use case is:",
+    "options": {
+      "A": "A UML sequence diagram only",
+      "B": "A series of declarative statements listing the steps from the actor's point of view",
+      "C": "A list of source code classes",
+      "D": "A database transaction log"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "The flow of events specifies the step-by-step dialogue and actions occurring between actor and system."
+  },
+  {
+    "id": 67,
+    "question": "Use cases are realized by:",
+    "options": {
+      "A": "Single global variables",
+      "B": "Compiler directives",
+      "C": "Collaborations whose elements work together to carry out each use case",
+      "D": "Test oracles"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "In design models, collaborations of classes, objects, and components realize the behavior defined in use cases."
+  },
+  {
+    "id": 68,
+    "question": "In a bank model, the 'Loan Officer' and 'Process loan' are respectively:",
+    "options": {
+      "A": "A use case and an actor",
+      "B": "Both actors",
+      "C": "Both use cases",
+      "D": "An actor and a use case"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "'Loan Officer' represents a role (Actor), whereas 'Process Loan' represents a functional task (Use Case)."
+  },
+  {
+    "id": 69,
+    "question": "A single person is both a 'Customer' and a 'Bank Manager' in different situations. In use case modelling this is:",
+    "options": {
+      "A": "Impossible, because one person can only be one actor",
+      "B": "Allowed only if the person has two accounts",
+      "C": "Allowed only if the roles share the same use cases",
+      "D": "Acceptable, because an actor represents a role, not a particular individual"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Actors model roles, not individual people; a single person can act as Customer in one transaction and Bank Manager in another."
+  },
+  {
+    "id": 70,
+    "question": "Which of the following is the LEAST appropriate use case?",
+    "options": {
+      "A": "Process loan",
+      "B": "Click the Submit button",
+      "C": "Place order",
+      "D": "Validate user"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Clicking a button is a low-level UI gesture; well-crafted use cases represent goal-driven business tasks."
+  },
+  {
+    "id": 71,
+    "question": "Which relationship may directly connect an actor to a use case in a use case diagram?",
+    "options": {
+      "A": "Include",
+      "B": "Association",
+      "C": "Extend",
+      "D": "Generalization of the use case"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Actors are linked to use cases via solid communication Associations."
+  },
+  {
+    "id": 72,
+    "question": "Use cases applied to a subsystem are an excellent source of:",
+    "options": {
+      "A": "Regression tests",
+      "B": "Compiler tests",
+      "C": "Hardware drivers",
+      "D": "Marketing material"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Subsystem-level use cases specify component boundaries, serving as ideal sources for integration testing."
+  },
+  {
+    "id": 73,
+    "question": "In the path name 'Sensors::Calibrate location', which part is the package name?",
+    "options": {
+      "A": "Calibrate location",
+      "B": "Location",
+      "C": "Sensors",
+      "D": "The double colon '::'"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "In 'Sensors::Calibrate location', the prefix before '::' represents the package name ('Sensors')."
+  },
+  {
+    "id": 74,
+    "question": "A use case named 'Run the entire bank' would violate which guideline?",
+    "options": {
+      "A": "Use case names must contain numbers",
+      "B": "Use cases must always be extended",
+      "C": "Every use case must have two actors",
+      "D": "Well-structured use cases are neither overly general nor too specific"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "A use case should capture a discrete, manageable unit of functionality; 'Run entire bank' is overly broad."
+  },
+  {
+    "id": 75,
+    "question": "Which step is appropriate in the flow of events of a use case?",
+    "options": {
+      "A": "The OrderManager class calls the saveOrder() method",
+      "B": "The SQL UPDATE statement locks the table row",
+      "C": "The customer selects an account and enters the amount",
+      "D": "The cache-invalidation thread wakes up\nUse Case Modeling – II"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part I",
+    "explanation": "Flow of events should describe domain interactions from the actor's perspective, avoiding internal implementation details like SQL or code classes."
+  },
+  {
+    "id": 76,
+    "question": "Which set lists the elements used to document a use case?",
+    "options": {
+      "A": "Name, class list, database schema, timer and risk",
+      "B": "Name, summary, dependency, actors, preconditions, flow of events, alternatives and postcondition",
+      "C": "Actor, server, port, protocol and bandwidth",
+      "D": "Summary, source code, compiler and linker options"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "A complete use case specification includes name, summary, actors, preconditions, normal flow, alternative flows, and postconditions."
+  },
+  {
+    "id": 77,
+    "question": "A use case flow of events can be specified using:",
+    "options": {
+      "A": "Informal structured text, formal structured text (with pre- and post-conditions) or pseudocode",
+      "B": "Only binary code",
+      "C": "Only UML class diagrams",
+      "D": "Only screenshots"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Use case flows can be drafted informally in text, semi-formally with structured numbered steps, or using activity pseudocode."
+  },
+  {
+    "id": 78,
+    "question": "The 'separation of concerns' emphasised for use cases is between:",
+    "options": {
+      "A": "Hardware and software",
+      "B": "Testing and development",
+      "C": "The outside view (what) and the inside view (how)",
+      "D": "Analysis and maintenance"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Use cases maintain separation between the external behavioral contract ('what') and internal architectural realization ('how')."
+  },
+  {
+    "id": 79,
+    "question": "Use cases can be organised by:",
+    "options": {
+      "A": "Alphabetical ordering only",
+      "B": "Packages and by generalization, include and extend relationships",
+      "C": "Compiler version",
+      "D": "Programmer seniority"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Use cases are structured and packaged hierarchically using UML packages, generalization, include, and extend."
+  },
+  {
+    "id": 80,
+    "question": "In use case generalization, the child use case:",
+    "options": {
+      "A": "Has no relationship to the parent's behaviour",
+      "B": "Can never replace the parent",
+      "C": "Inherits the behaviour of the parent, may add to or override it, and may substitute for the parent",
+      "D": "Must delete the parent's flow"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "In use case generalization, a specialized child inherits the parent's behaviors and can substitute for the parent."
+  },
+  {
+    "id": 81,
+    "question": "The 'Validate PIN' ATM use case has which precondition?",
+    "options": {
+      "A": "The customer has already entered the PIN",
+      "B": "The customer has already selected Withdrawal",
+      "C": "The card has been confiscated",
+      "D": "The ATM is idle, displaying a Welcome message"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Before entering a PIN, the ATM must be in an idle state displaying its initial Welcome screen."
+  },
+  {
+    "id": 82,
+    "question": "An «include» relationship means that the base use case:",
+    "options": {
+      "A": "Explicitly incorporates the behaviour of another use case at a location specified in the base",
+      "B": "Optionally incorporates the behaviour only under certain conditions",
+      "C": "Inherits the behaviour as a child",
+      "D": "Is never executed"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "The «include» relationship specifies mandatory insertion: the base use case explicitly incorporates the included flow."
+  },
+  {
+    "id": 83,
+    "question": "The main purpose of the «include» relationship is to:",
+    "options": {
+      "A": "Create optional behaviour",
+      "B": "Show that an actor is a specialisation of another",
+      "C": "Avoid describing the same flow of events several times",
+      "D": "Represent the physical deployment of the system"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "The primary purpose of «include» is factoring out common sub-flows shared across multiple use cases to avoid duplication."
+  },
+  {
+    "id": 84,
+    "question": "In the slides, which use case includes 'Validate user'?",
+    "options": {
+      "A": "Place rush order",
+      "B": "Track order",
+      "C": "Startup",
+      "D": "Add cash"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "In common models, order processing use cases include shared authentication like 'Validate user'."
+  },
+  {
+    "id": 85,
+    "question": "An «extend» relationship means that the base use case:",
+    "options": {
+      "A": "Always executes the other use case at a fixed step",
+      "B": "Implicitly incorporates the behaviour of another use case at an extension point, under certain conditions",
+      "C": "Cannot execute without the other use case",
+      "D": "Inherits the other use case's actors"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "The «extend» relationship models conditional or optional behavior inserted into a base use case at defined extension points."
+  },
+  {
+    "id": 86,
+    "question": "What is an 'extension point'?",
+    "options": {
+      "A": "A location in the base use case at which it may be extended",
+      "B": "A step where the system crashes",
+      "C": "The final postcondition",
+      "D": "A package boundary"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "An extension point marks a named position in the base use case where an extending flow may be conditionally inserted."
+  },
+  {
+    "id": 87,
+    "question": "The «extend» relationship can be used to model:",
+    "options": {
+      "A": "Behaviour that must always run",
+      "B": "The physical network",
+      "C": "Optional behaviour or a sub-flow executed only under given conditions",
+      "D": "Inheritance of attributes"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Use «extend» to capture optional features, exception branches, or conditionally activated workflows."
+  },
+  {
+    "id": 88,
+    "question": "In the example, 'Place rush order' relates to 'Place order' as:",
+    "options": {
+      "A": "An extending use case that adds rush-priority behaviour at the 'set priority' extension point",
+      "B": "A use case included in every order",
+      "C": "The parent in a generalization",
+      "D": "An actor"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "'Place rush order' conditionally extends the standard 'Place order' use case at the priority extension point."
+  },
+  {
+    "id": 89,
+    "question": "Use case models are valuable to testers because they provide:",
+    "options": {
+      "A": "A basis for testing",
+      "B": "A replacement for the test plan",
+      "C": "Automatic defect repair",
+      "D": "Compiler warnings"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Use cases provide testers with a functional blueprint for deriving user-centric end-to-end test scenarios."
+  },
+  {
+    "id": 90,
+    "question": "Which guideline is given for finding use cases?",
+    "options": {
+      "A": "Write the code first and derive use cases afterwards",
+      "B": "Identify the actors that interact with the element, then consider each actor's primary and exceptional interactions",
+      "C": "Decide the database first",
+      "D": "Use only one actor per system"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Use cases are identified by analyzing system actors and enumerating their key tasks, goals, and exceptions."
+  },
+  {
+    "id": 91,
+    "question": "In the ATM use case diagram, which use cases include 'Validate PIN'?",
+    "options": {
+      "A": "Startup, Shutdown and Add cash",
+      "B": "Withdraw funds and Add cash only",
+      "C": "Query account and Startup only",
+      "D": "Withdraw funds, Query account and Transfer funds"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Customer ATM transactions (Withdraw funds, Query account, Transfer funds) all include the shared 'Validate PIN' use case."
+  },
+  {
+    "id": 92,
+    "question": "In the ATM diagram, the Operator actor is associated with:",
+    "options": {
+      "A": "Withdraw funds, Query account and Transfer funds",
+      "B": "Validate PIN only",
+      "C": "Startup, Shutdown and Add cash",
+      "D": "No use case"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Maintenance use cases like Startup, Shutdown, and Add cash are initiated by the Operator actor."
+  },
+  {
+    "id": 93,
+    "question": "How many alternative flows are listed for the 'Validate PIN' use case on the slides?",
+    "options": {
+      "A": "Three",
+      "B": "Four",
+      "C": "Eight",
+      "D": "Six"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "The ATM Validate PIN specification documents six distinct alternative paths (e.g. invalid card, wrong PIN, timeout, canceled)."
+  },
+  {
+    "id": 94,
+    "question": "In Validate PIN, what happens when the card is NOT recognised, and what happens when it has EXPIRED?",
+    "options": {
+      "A": "Both → card confiscated",
+      "B": "Not recognised → card ejected; expired → card confiscated",
+      "C": "Both → card ejected",
+      "D": "Not recognised → confiscated; expired → ejected"
+    },
+    "answer": "B",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Unrecognized cards are ejected immediately; expired cards are confiscated for bank security."
+  },
+  {
+    "id": 95,
+    "question": "What does the system do when the customer enters an incorrect PIN three times?",
+    "options": {
+      "A": "Ejects the card and shows the Welcome message",
+      "B": "Re-prompts indefinitely",
+      "C": "Shuts the ATM down",
+      "D": "Confiscates the card"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Entering three consecutive invalid PINs triggers card retention (confiscation) to prevent fraud."
+  },
+  {
+    "id": 96,
+    "question": "If the customer presses Cancel during PIN validation, the system:",
+    "options": {
+      "A": "Confiscates the card",
+      "B": "Keeps the card and re-prompts for the PIN",
+      "C": "Cancels the transaction and ejects the card",
+      "D": "Displays the account list"
+    },
+    "answer": "C",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Canceling the transaction immediately returns/ejects the ATM card back to the customer."
+  },
+  {
+    "id": 97,
+    "question": "Which of the following use cases can run on its own (stand alone)?",
+    "options": {
+      "A": "The base use case of an «extend» relationship",
+      "B": "A use case used only through «include»",
+      "C": "A use case that exists only as part of its base",
+      "D": "An included use case such as Validate user when run in isolation"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "The base use case of an «extend» relationship is autonomous and executes independently without the extension."
+  },
+  {
+    "id": 98,
+    "question": "What is the postcondition of the 'Validate PIN' use case?",
+    "options": {
+      "A": "The customer's PIN has been validated",
+      "B": "The customer's cash has been dispensed",
+      "C": "The ATM has been shut down",
+      "D": "The account balance has been updated"
+    },
+    "answer": "A",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "The postcondition of 'Validate PIN' is that the customer's PIN has been successfully authenticated."
+  },
+  {
+    "id": 99,
+    "question": "In 'Withdraw Funds', the system checks which two conditions after the customer enters the amount and selects the account?",
+    "options": {
+      "A": "Card expiry date and lost/stolen status",
+      "B": "PIN mismatch and retry count",
+      "C": "Operator login and cash cassette status",
+      "D": "Enough funds in the account and the daily limit not exceeded"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "Prior to dispensing cash, the ATM verifies sufficient account balance and compliance with daily withdrawal ceilings."
+  },
+  {
+    "id": 100,
+    "question": "'Check password' and 'Retinal scan' are specialised children of 'Validate user'. Which statement is TRUE?",
+    "options": {
+      "A": "Neither child can replace the parent",
+      "B": "The parent must be removed from the model",
+      "C": "Both children must always run together",
+      "D": "Either child may be substituted wherever Validate user appears\nMutation Testing"
+    },
+    "answer": "D",
+    "category": "Use Case Modeling – Part II",
+    "explanation": "In polymorphism, any specialized child use case can substitute for its generalized parent."
+  },
+  {
+    "id": 101,
+    "question": "Mutation testing is an advanced technique used to evaluate:",
+    "options": {
+      "A": "The speed of the compiler",
+      "B": "The quality of an existing test suite",
+      "C": "The size of the source code",
+      "D": "The user interface design"
+    },
+    "answer": "B",
+    "category": "Mutation Testing",
+    "explanation": "Mutation testing is an automated fault-injection technique used to assess the fault-detection capability of a test suite."
+  },
+  {
+    "id": 102,
+    "question": "The main idea of mutation testing is to ask:",
+    "options": {
+      "A": "Is the code compiled without warnings?",
+      "B": "Is the user interface attractive?",
+      "C": "Does the code run faster than before?",
+      "D": "Can your tests catch a deliberately broken version of the code?"
+    },
+    "answer": "D",
+    "category": "Mutation Testing",
+    "explanation": "Mutation testing asks: 'If we introduce a small fault into the code, does our test suite fail and catch it?'"
+  },
+  {
+    "id": 103,
+    "question": "In mutation testing, the 'ground string' refers to:",
+    "options": {
+      "A": "A modified version of the code",
+      "B": "The original, clean, compilable code",
+      "C": "The set of automated tests",
+      "D": "The final mutation score"
+    },
+    "answer": "B",
+    "category": "Mutation Testing",
+    "explanation": "The 'ground string' (or ground program) is the original, unmodified, compilable source code."
+  },
+  {
+    "id": 104,
+    "question": "A 'mutant' is:",
+    "options": {
+      "A": "The original program",
+      "B": "A failing test case",
+      "C": "A test environment",
+      "D": "A modified version of the code created by a small change"
+    },
+    "answer": "D",
+    "category": "Mutation Testing",
+    "explanation": "A 'mutant' is a syntactically valid derivative of the original program containing a single deliberate fault."
+  },
+  {
+    "id": 105,
+    "question": "The 'test suite' in mutation testing is:",
+    "options": {
+      "A": "The collection of mutants",
+      "B": "The compiler settings",
+      "C": "The deployment script",
+      "D": "The existing automated tests used to detect changes"
+    },
+    "answer": "D",
+    "category": "Mutation Testing",
+    "explanation": "The test suite comprises existing automated unit tests executed against each mutant to evaluate test strength."
+  },
+  {
+    "id": 106,
+    "question": "Changing 'total = price + tax' into 'total = price - tax' is an example of:",
+    "options": {
+      "A": "Creating a mutant using an operator change",
+      "B": "Refactoring",
+      "C": "Code coverage measurement",
+      "D": "Static analysis"
+    },
+    "answer": "A",
+    "category": "Mutation Testing",
+    "explanation": "Substituting an arithmetic operator (+ to -) creates an Arithmetic Operator Replacement mutant."
+  },
+  {
+    "id": 107,
+    "question": "Which of the following is a typical mutation operator change listed in the slides?",
+    "options": {
+      "A": "int → string",
+      "B": "== → !=",
+      "C": "if → while",
+      "D": "public → private"
+    },
+    "answer": "B",
+    "category": "Mutation Testing",
+    "explanation": "Replacing relational operators (e.g. == with !=) is a standard relational mutation operator."
+  },
+  {
+    "id": 108,
+    "question": "What is the first step in the mutation testing process?",
+    "options": {
+      "A": "Create mutants",
+      "B": "Run base tests and confirm the original tests pass",
+      "C": "Compute the mutation score",
+      "D": "Improve the tests"
+    },
+    "answer": "B",
+    "category": "Mutation Testing",
+    "explanation": "Before running mutants, the original test suite must pass cleanly on the baseline ground string."
+  },
+  {
+    "id": 109,
+    "question": "A 'killed' mutant means:",
+    "options": {
+      "A": "The tests still pass",
+      "B": "The mutant could not be compiled",
+      "C": "The test suite detected the change (a test failed)",
+      "D": "The original code was deleted"
+    },
+    "answer": "C",
+    "category": "Mutation Testing",
+    "explanation": "A mutant is 'killed' when at least one test case in the test suite fails upon executing the mutated code."
+  },
+  {
+    "id": 110,
+    "question": "A 'survived' mutant means:",
+    "options": {
+      "A": "The test suite found the change",
+      "B": "The tests still pass even though the code was changed",
+      "C": "The mutant was equivalent by definition",
+      "D": "The mutant crashed the machine"
+    },
+    "answer": "B",
+    "category": "Mutation Testing",
+    "explanation": "A mutant 'survives' if all test cases pass, revealing an untested condition or missing assertion in the test suite."
+  },
+  {
+    "id": 111,
+    "question": "The mutation score is calculated as:",
+    "options": {
+      "A": "Survived mutants ÷ total mutants × 100",
+      "B": "Lines covered ÷ total lines × 100",
+      "C": "Killed mutants ÷ total non-equivalent mutants × 100",
+      "D": "Passed tests ÷ total tests × 100"
+    },
+    "answer": "C",
+    "category": "Mutation Testing",
+    "explanation": "Mutation Score = (Killed Mutants / [Total Mutants - Equivalent Mutants]) * 100%."
+  },
+  {
+    "id": 112,
+    "question": "Which question does CODE COVERAGE answer, compared with MUTATION SCORE?",
+    "options": {
+      "A": "Coverage: 'Did my tests detect wrong behaviour?'; mutation score: 'Did my tests execute the code?'",
+      "B": "Both answer 'Is the code fast?'",
+      "C": "Both answer 'Is the code documented?'",
+      "D": "Coverage: 'Did my tests execute this code?'; mutation score: 'Did my tests detect incorrect behaviour?'"
+    },
+    "answer": "D",
+    "category": "Mutation Testing",
+    "explanation": "Coverage tells if code was executed; mutation score determines whether tests actually checked and asserted correctness."
+  },
+  {
+    "id": 113,
+    "question": "The Competent Programmer Hypothesis states that:",
+    "options": {
+      "A": "Programmers write code that is close to correct, so small changes can model realistic mistakes",
+      "B": "Programmers always write perfect code",
+      "C": "Large rewrites are the typical bug source",
+      "D": "Tests are always correct"
+    },
+    "answer": "A",
+    "category": "Mutation Testing",
+    "explanation": "The Competent Programmer Hypothesis posits that developers write programs close to correct, making small faults realistic."
+  },
+  {
+    "id": 114,
+    "question": "Which is an advantage of mutation testing?",
+    "options": {
+      "A": "It uncovers weak test assertions and untested edge cases",
+      "B": "It is cheap to run on huge codebases",
+      "C": "It removes the need for code coverage",
+      "D": "It guarantees a bug-free program"
+    },
+    "answer": "A",
+    "category": "Mutation Testing",
+    "explanation": "Mutation testing effectively pinpoints weak test assertions, incomplete edge cases, and false senses of security."
+  },
+  {
+    "id": 115,
+    "question": "Which is a disadvantage of mutation testing?",
+    "options": {
+      "A": "It cannot detect weak assertions",
+      "B": "It never improves test quality",
+      "C": "It is computationally heavy and may increase build and test time",
+      "D": "It requires no CPU"
+    },
+    "answer": "C",
+    "category": "Mutation Testing",
+    "explanation": "Because each mutant must be compiled and tested, mutation testing requires substantial computational power."
+  },
+  {
+    "id": 116,
+    "question": "The goal of the 'Improve tests' step is to:",
+    "options": {
+      "A": "Delete all surviving mutants from the report",
+      "B": "Reduce the number of mutants",
+      "C": "Turn surviving mutants into stronger tests",
+      "D": "Increase the number of lines of code"
+    },
+    "answer": "C",
+    "category": "Mutation Testing",
+    "explanation": "Surviving mutants guide testers to add targeted test cases and strengthen assertions until mutants are killed."
+  },
+  {
+    "id": 117,
+    "question": "In the 'security drill' analogy, the tests correspond to:",
+    "options": {
+      "A": "The alarm system that should respond to a deliberate small fault",
+      "B": "The house itself",
+      "C": "The intruder",
+      "D": "The building plan"
+    },
+    "answer": "A",
+    "category": "Mutation Testing",
+    "explanation": "Tests act like home security alarms that must trigger whenever an intruder (injected bug) tampers with the system."
+  },
+  {
+    "id": 118,
+    "question": "A tool generates 100 mutants; 20 are equivalent. The test suite kills 64 of the rest. What is the mutation score?",
+    "options": {
+      "A": "80%",
+      "B": "64%",
+      "C": "84%",
+      "D": "53%"
+    },
+    "answer": "A",
+    "category": "Mutation Testing",
+    "explanation": "Non-equivalent mutants = 100 - 20 = 80. Killed = 64. Mutation Score = (64 / 80) * 100 = 80%."
+  },
+  {
+    "id": 119,
+    "question": "Why are equivalent mutants excluded from the mutation score denominator?",
+    "options": {
+      "A": "They always fail to compile",
+      "B": "They are always killed by all tests",
+      "C": "They behave identically to the original program, so no test can kill them",
+      "D": "They are created only by the test team"
+    },
+    "answer": "C",
+    "category": "Mutation Testing",
+    "explanation": "Equivalent mutants produce identical runtime behavior to the original program and can never be killed by any test."
+  },
+  {
+    "id": 120,
+    "question": "A suite achieves 100% statement coverage but a low mutation score. What does this most likely indicate?",
+    "options": {
+      "A": "The code contains no defects",
+      "B": "The mutation tool is broken",
+      "C": "Coverage is a better metric than mutation score",
+      "D": "Code is executed, but assertions are too weak to detect incorrect behaviour"
+    },
+    "answer": "D",
+    "category": "Mutation Testing",
+    "explanation": "100% statement coverage with low mutation score signifies tests that execute code without asserting expected outcomes."
+  },
+  {
+    "id": 121,
+    "question": "The mutant 'total = price - tax' SURVIVES. The most sensible interpretation is:",
+    "options": {
+      "A": "The original code is wrong",
+      "B": "The tests do not check the calculated total adequately and need a stronger assertion",
+      "C": "The mutation operator is invalid",
+      "D": "Mutation testing has failed"
+    },
+    "answer": "B",
+    "category": "Mutation Testing",
+    "explanation": "If changing + to - survives, the test suite failed to assert the calculated total properly."
+  },
+  {
+    "id": 122,
+    "question": "All generated non-equivalent mutants are killed. Which conclusion is justified?",
+    "options": {
+      "A": "The software is guaranteed to be defect-free",
+      "B": "No further tests are ever needed",
+      "C": "The code coverage must be 0%",
+      "D": "The tests are strong against those kinds of mutations, but this is not a proof of defect-free software"
+    },
+    "answer": "D",
+    "category": "Mutation Testing",
+    "explanation": "Killing all non-equivalent mutants proves high test adequacy against simulated faults, but does not guarantee zero bugs."
+  },
+  {
+    "id": 123,
+    "question": "Which statement about mutation testing is most accurate?",
+    "options": {
+      "A": "It primarily reveals weaknesses in the test suite; production code is not shipped with mutants",
+      "B": "It directly fixes bugs in the original code",
+      "C": "Mutants are delivered to customers for robustness",
+      "D": "It replaces unit testing entirely"
+    },
+    "answer": "A",
+    "category": "Mutation Testing",
+    "explanation": "Mutation testing tests the tests; mutants are temporary diagnostic artifacts and never deployed to production."
+  },
+  {
+    "id": 124,
+    "question": "Team A has a mutation score of 40% and Team B has 85% (same code size). Which interpretation is best?",
+    "options": {
+      "A": "Team A's code is better",
+      "B": "Both suites are equally strong",
+      "C": "Mutation score has no relation to test strength",
+      "D": "Team B's tests generally detect far more of the injected changes"
+    },
+    "answer": "D",
+    "category": "Mutation Testing",
+    "explanation": "A higher mutation score (85% vs 40%) proves a significantly more sensitive and thorough test suite."
+  },
+  {
+    "id": 125,
+    "question": "Why must the base tests pass before creating and running mutants?",
+    "options": {
+      "A": "Because mutants can only be created from passing code",
+      "B": "Because failing tests are always equivalent mutants",
+      "C": "If the original tests already fail, 'killed' and 'survived' results cannot be interpreted reliably",
+      "D": "Because the mutation score would be 100%\nSoftware Testing Overview and Integration Testing"
+    },
+    "answer": "C",
+    "category": "Mutation Testing",
+    "explanation": "If base tests fail initially, one cannot determine whether a mutant test failure was caused by the mutant or an existing bug."
+  },
+  {
+    "id": 126,
+    "question": "Which is the correct order of functional testing levels from smallest to largest scope?",
+    "options": {
+      "A": "Integration → Unit → System → Acceptance",
+      "B": "Unit → Integration → System → Acceptance",
+      "C": "Unit → System → Integration → Acceptance",
+      "D": "Acceptance → System → Integration → Unit"
+    },
+    "answer": "B",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Standard functional testing hierarchy from granular to broad: Unit -> Integration -> System -> Acceptance."
+  },
+  {
+    "id": 127,
+    "question": "Unit testing is best described as:",
+    "options": {
+      "A": "Testing the whole application",
+      "B": "Testing one small component in isolation",
+      "C": "Final approval by the client",
+      "D": "Testing the network speed"
+    },
+    "answer": "B",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Unit testing validates individual functions, methods, or modules in isolation from the rest of the application."
+  },
+  {
+    "id": 128,
+    "question": "Acceptance testing is:",
+    "options": {
+      "A": "Testing a single function",
+      "B": "Testing the interfaces between modules",
+      "C": "Testing the compiler",
+      "D": "The final check by the client or users to see whether the software is ready for real-world use"
+    },
+    "answer": "D",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Acceptance testing evaluates complete end-to-end workflows to confirm business readiness for customer sign-off."
+  },
+  {
+    "id": 129,
+    "question": "The 'WHAT vs HOW WELL' memory trick distinguishes:",
+    "options": {
+      "A": "Black-box and white-box testing",
+      "B": "Manual and automated testing",
+      "C": "Functional testing (what it does) and non-functional testing (how well it does it)",
+      "D": "Unit and system testing"
+    },
+    "answer": "C",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Functional testing assesses WHAT features the system performs; non-functional testing measures HOW WELL it performs them."
+  },
+  {
+    "id": 130,
+    "question": "Performance testing measures:",
+    "options": {
+      "A": "Whether the code follows naming standards",
+      "B": "Whether the user likes the colours",
+      "C": "Speed, responsiveness, stability and behaviour under heavy traffic",
+      "D": "Whether data is encrypted"
+    },
+    "answer": "C",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Performance testing measures response times, latency, throughput, and system stability under varying load conditions."
+  },
+  {
+    "id": 131,
+    "question": "Security testing looks for:",
+    "options": {
+      "A": "Vulnerabilities and whether sensitive information is protected",
+      "B": "Slow database queries",
+      "C": "Confusing menu names",
+      "D": "Missing code comments"
+    },
+    "answer": "A",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Security testing probes for system vulnerabilities, data breaches, privilege escalation, and access controls."
+  },
+  {
+    "id": 132,
+    "question": "Manual testing is especially suitable for:",
+    "options": {
+      "A": "Large numbers of repetitive regression checks",
+      "B": "Running thousands of quick tests nightly",
+      "C": "Replacing all automation",
+      "D": "Exploratory testing, user experience and new or changing features"
+    },
+    "answer": "D",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Manual testing is essential for exploratory testing, usability analysis, visual layout verification, and ad-hoc testing."
+  },
+  {
+    "id": 133,
+    "question": "Automated testing is especially suitable for:",
+    "options": {
+      "A": "Judging aesthetics of a new design",
+      "B": "Exploratory testing of unclear features",
+      "C": "Brainstorming new requirements",
+      "D": "Repetitive checks, regression testing and large numbers of quick tests"
+    },
+    "answer": "D",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Automation excels at high-volume, repeatable tasks such as regression test suites and continuous integration builds."
+  },
+  {
+    "id": 134,
+    "question": "Black-box testing focuses on:",
+    "options": {
+      "A": "Branches and loops in the code",
+      "B": "Inputs and outputs, without needing the internal code",
+      "C": "Compiler optimisation",
+      "D": "Memory addresses"
+    },
+    "answer": "B",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Black-box testing focuses purely on external inputs and outputs according to specifications, without inspecting code internals."
+  },
+  {
+    "id": 135,
+    "question": "White-box testing is characterised by:",
+    "options": {
+      "A": "Ignoring all code",
+      "B": "Using only user opinions",
+      "C": "Examination of internal code and logic such as branches, conditions, loops and paths",
+      "D": "Testing only the user interface"
+    },
+    "answer": "C",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "White-box testing inspects structural code paths, branch logic, internal loops, and state conditions."
+  },
+  {
+    "id": 136,
+    "question": "Integration testing mainly checks:",
+    "options": {
+      "A": "Interfaces, communication and data flow between modules",
+      "B": "The correctness of one function in isolation",
+      "C": "The final customer approval",
+      "D": "The colour scheme of the UI"
+    },
+    "answer": "A",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Integration testing focuses on identifying faults in inter-module communication, protocols, interfaces, and data exchanges."
+  },
+  {
+    "id": 137,
+    "question": "Which of the following is NOT one of the four common causes of integration defects given in the slides?",
+    "options": {
+      "A": "Interface mismatch",
+      "B": "Data discrepancy",
+      "C": "Requirement misunderstanding",
+      "D": "Using a version-control system for source code"
+    },
+    "answer": "D",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Using version control is standard development practice, not a cause of integration interface defects."
+  },
+  {
+    "id": 138,
+    "question": "Which statement about the Big Bang approach is correct?",
+    "options": {
+      "A": "All or most modules are combined at once; it is simple but makes bug isolation hard",
+      "B": "Modules are integrated one by one using stubs",
+      "C": "It always detects interface defects early",
+      "D": "It is the best choice for large complex systems"
+    },
+    "answer": "A",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Big Bang combines all components simultaneously; while simple, isolating the cause of failure is extremely difficult."
+  },
+  {
+    "id": 139,
+    "question": "In Top-Down integration testing, lower-level modules that are not yet available are simulated by:",
+    "options": {
+      "A": "Drivers",
+      "B": "Oracles",
+      "C": "Stubs",
+      "D": "Mutants"
+    },
+    "answer": "C",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "In Top-Down testing, Stubs are temporary dummy implementations that substitute for unfinished lower-level modules."
+  },
+  {
+    "id": 140,
+    "question": "In Bottom-Up integration testing, missing higher-level modules are simulated by:",
+    "options": {
+      "A": "Drivers",
+      "B": "Stubs",
+      "C": "Mutants",
+      "D": "Prototypes of the database"
+    },
+    "answer": "A",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "In Bottom-Up testing, Drivers are test harnesses that invoke and pass test data to lower-level components."
+  },
+  {
+    "id": 141,
+    "question": "The Sandwich (Hybrid) approach is:",
+    "options": {
+      "A": "A variant of Big Bang",
+      "B": "A combination of Top-Down and Bottom-Up testing converging on a middle layer",
+      "C": "Only manual testing",
+      "D": "A form of acceptance testing"
+    },
+    "answer": "B",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Sandwich (Hybrid) integration combines Top-Down (for high levels) and Bottom-Up (for low levels) converging on a middle layer."
+  },
+  {
+    "id": 142,
+    "question": "Which sequence correctly lists the five-step integration testing lifecycle?",
+    "options": {
+      "A": "Plan → Design → Setup → Execute → Report",
+      "B": "Design → Plan → Execute → Setup → Report",
+      "C": "Plan → Setup → Design → Report → Execute",
+      "D": "Execute → Plan → Design → Report → Setup"
+    },
+    "answer": "A",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "The 5-step integration testing lifecycle: Plan -> Design -> Setup -> Execute -> Report."
+  },
+  {
+    "id": 143,
+    "question": "The real database module is unfinished, so a small program returns fake database responses to the module under test. This helper is a:",
+    "options": {
+      "A": "Driver",
+      "B": "Oracle",
+      "C": "Mutant",
+      "D": "Stub"
+    },
+    "answer": "D",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "A stub simulates the behavior of a missing downstream component (like a mock database response) for the calling module."
+  },
+  {
+    "id": 144,
+    "question": "A small program calls a utility function directly because the UI does not exist yet. This is a:",
+    "options": {
+      "A": "Stub (used mainly in Top-Down testing)",
+      "B": "Mutant",
+      "C": "Driver (used mainly in Bottom-Up testing)",
+      "D": "Test oracle"
+    },
+    "answer": "C",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "A test driver acts as a calling harness that invokes a lower-level module when the caller UI or upper layer is not yet written."
+  },
+  {
+    "id": 145,
+    "question": "According to the comparison table, which strategy is 'best for complex low-level code'?",
+    "options": {
+      "A": "Big Bang",
+      "B": "Top-Down",
+      "C": "Bottom-Up",
+      "D": "Sandwich only for tiny projects"
+    },
+    "answer": "C",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Bottom-Up integration begins at the lowest level, making it best suited for verifying complex low-level drivers and algorithms."
+  },
+  {
+    "id": 146,
+    "question": "Which drawback is associated with Bottom-Up integration testing?",
+    "options": {
+      "A": "Bug localisation is difficult",
+      "B": "Stubs are required for every module",
+      "C": "Major structural flaws are found first",
+      "D": "Top-level flaws are caught later"
+    },
+    "answer": "D",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Bottom-Up testing delays testing the top-level user interface and system architecture until the very end."
+  },
+  {
+    "id": 147,
+    "question": "Login passes all its unit tests and the database module passes its own tests, but login fails when connected to the database. Which test level exposes this?",
+    "options": {
+      "A": "Unit testing",
+      "B": "Integration testing",
+      "C": "Acceptance testing only",
+      "D": "Usability testing"
+    },
+    "answer": "B",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Integration testing catches contract and data exchange mismatches between independently working units."
+  },
+  {
+    "id": 148,
+    "question": "Why is the Big Bang approach risky for a large system?",
+    "options": {
+      "A": "It requires a driver for each module",
+      "B": "When a failure appears, it is hard to isolate which module or interface caused it",
+      "C": "It prevents any defects from being found",
+      "D": "It cannot be executed on a computer"
+    },
+    "answer": "B",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "When defects emerge during Big Bang integration, diagnosing which module or interface is responsible is complex and time-consuming."
+  },
+  {
+    "id": 149,
+    "question": "The question 'Can the website handle thousands of users at once?' belongs to which type of testing?",
+    "options": {
+      "A": "Performance testing (non-functional)",
+      "B": "Unit testing (functional)",
+      "C": "Acceptance testing (functional)",
+      "D": "White-box branch testing"
+    },
+    "answer": "A",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Testing high concurrent user traffic falls under non-functional Performance/Load testing."
+  },
+  {
+    "id": 150,
+    "question": "Creating the test environment, database, stubs and drivers happens in which lifecycle step?",
+    "options": {
+      "A": "Plan",
+      "B": "Execute",
+      "C": "Setup",
+      "D": "Report"
+    },
+    "answer": "C",
+    "category": "Testing Overview & Integration Testing",
+    "explanation": "Configuring the test environment, setting up databases, and deploying stubs/drivers occurs during the Setup phase."
+  }
+]
