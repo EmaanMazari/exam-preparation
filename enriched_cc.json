@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "Cloud computing is the delivery of servers, storage, databases, networking and software over the:",
+    "options": {
+      "A": "USB cable",
+      "B": "Bluetooth link only",
+      "C": "Local printer network only",
+      "D": "Internet"
+    },
+    "answer": "D",
+    "explanation": "Cloud computing delivers computing resources and services over the Internet.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 2,
+    "question": "When you save a file in Google Drive, where does Google store it?",
+    "options": {
+      "A": "Only on your laptop",
+      "B": "Only on your mobile SIM",
+      "C": "On its cloud infrastructure",
+      "D": "Inside your browser history"
+    },
+    "answer": "C",
+    "explanation": "The file is uploaded through the Internet and stored on Google's cloud infrastructure, so you do not need to keep the only copy on your device.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 3,
+    "question": "In the cloud evolution slide, which stage comes immediately before Cloud Computing?",
+    "options": {
+      "A": "Client-Server Computing",
+      "B": "Personal Computers (PCs)",
+      "C": "Data Centers",
+      "D": "Mainframe Computers"
+    },
+    "answer": "C",
+    "explanation": "Order: Mainframe, PCs, Client-Server, Virtualization, Data Centers, Cloud Computing, Modern Cloud / Cloud-Native.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 4,
+    "question": "Which stage comes immediately after Client-Server Computing in the evolution of cloud computing?",
+    "options": {
+      "A": "Personal Computers (PCs)",
+      "B": "Cloud-Native Computing",
+      "C": "Virtualization",
+      "D": "Mainframe Computers"
+    },
+    "answer": "C",
+    "explanation": "Client-Server Computing is followed by Virtualization in the cloud evolution timeline.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 5,
+    "question": "Which flow diagram shows the correct order of cloud evolution (top to bottom)?",
+    "options": {
+      "A": "PCs -> Mainframe -> Client-Server -> Virtualization -> Data Centers -> Cloud Computing -> Modern Cloud",
+      "B": "Mainframe -> PCs -> Client-Server -> Data Centers -> Virtualization -> Cloud Computing -> Modern Cloud",
+      "C": "Mainframe -> Client-Server -> PCs -> Virtualization -> Cloud Computing -> Data Centers -> Modern Cloud",
+      "D": "Mainframe -> PCs -> Client-Server -> Virtualization -> Data Centers -> Cloud Computing -> Modern Cloud"
+    },
+    "answer": "D",
+    "explanation": "Correct chronological order: Mainframe Computers -> Personal Computers (PCs) -> Client-Server Computing -> Virtualization -> Data Centers -> Cloud Computing -> Modern Cloud / Cloud-Native.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 6,
+    "question": "A user creates a virtual server from the AWS or Azure portal by clicking a few options. Which characteristic is this?",
+    "options": {
+      "A": "On-Demand Self-Service",
+      "B": "Resource Pooling",
+      "C": "Measured Service",
+      "D": "Broad Network Access"
+    },
+    "answer": "A",
+    "explanation": "Resources are provisioned automatically without requiring human interaction with the service provider.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 7,
+    "question": "You can open Google Drive from a laptop, a mobile and a tablet. Which characteristic does this show?",
+    "options": {
+      "A": "Resource Pooling",
+      "B": "Broad Network Access",
+      "C": "Measured Service",
+      "D": "Rapid Elasticity"
+    },
+    "answer": "B",
+    "explanation": "Broad Network Access means capabilities are available over the network and accessed through heterogeneous client platforms (laptops, phones, tablets).",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 8,
+    "question": "AWS uses large data centers with many servers and allocates resources to different customers as required. This is:",
+    "options": {
+      "A": "On-Demand Self-Service",
+      "B": "Rapid Elasticity",
+      "C": "Measured Service",
+      "D": "Resource Pooling"
+    },
+    "answer": "D",
+    "explanation": "The provider's computing resources are pooled to serve multiple consumers using a multi-tenant model.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is NOT listed as a pooled resource in the slides?",
+    "options": {
+      "A": "Servers",
+      "B": "Network resources",
+      "C": "Printed paper documents",
+      "D": "Storage"
+    },
+    "answer": "C",
+    "explanation": "Pooled cloud resources include servers, storage, memory, processing power, and network bandwidth.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 10,
+    "question": "An online shopping website normally needs 10 servers but needs 50 servers during a sale. Which characteristic supports this?",
+    "options": {
+      "A": "Rapid Elasticity",
+      "B": "Resource Pooling",
+      "C": "Measured Service",
+      "D": "Broad Network Access"
+    },
+    "answer": "A",
+    "explanation": "Rapid Elasticity allows computing capabilities to be elastically provisioned and released to scale rapidly outward and inward with demand.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 11,
+    "question": "Which graph best shows the website that normally needs 10 servers, needs 50 servers during a sale, and then returns to 10?",
+    "options": {
+      "A": "Normally at 50 -> Dips to 10 during sale -> Returns to 50",
+      "B": "Flat constant line at 50 servers",
+      "C": "Normally at 10 -> Spikes to 50 during sale -> Returns back to 10",
+      "D": "Flat constant line at 10 servers"
+    },
+    "answer": "C",
+    "explanation": "Elasticity dynamically scales up resources during high demand (from 10 to 50) and scales back down when demand subsides.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is NOT listed as a measured resource in the measured service slide?",
+    "options": {
+      "A": "Storage",
+      "B": "Monitor screen brightness",
+      "C": "Network traffic",
+      "D": "Number of requests"
+    },
+    "answer": "B",
+    "explanation": "Measured resources in cloud metering include storage usage, CPU compute hours, network bandwidth transferred, and API request count.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is a LIMITATION of cloud computing?",
+    "options": {
+      "A": "Scalability",
+      "B": "Lower Cost",
+      "C": "Backup & Recovery",
+      "D": "Vendor Lock-In"
+    },
+    "answer": "D",
+    "explanation": "Limitations of cloud computing include Internet dependency, security risks, privacy concerns, potential downtime, and Vendor Lock-In.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is a BENEFIT of cloud computing?",
+    "options": {
+      "A": "Compliance Issues",
+      "B": "Privacy Concerns",
+      "C": "Automatic Maintenance",
+      "D": "Downtime"
+    },
+    "answer": "C",
+    "explanation": "Benefits include cost savings, elasticity, scalability, high availability, fast deployment, automated backup, and automatic software maintenance.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 15,
+    "question": "In a traditional data center, scaling up usually requires:",
+    "options": {
+      "A": "Clicking a button on a portal",
+      "B": "Paying only per request",
+      "C": "Purchasing additional hardware",
+      "D": "Waiting for the provider's update"
+    },
+    "answer": "C",
+    "explanation": "Traditional on-premises expansion requires capital expenditure (CapEx) to purchase, rack, cable, and configure new physical hardware.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 16,
+    "question": "Who handles physical maintenance of the infrastructure in cloud computing?",
+    "options": {
+      "A": "The organization's own staff",
+      "B": "The cloud provider",
+      "C": "The end user",
+      "D": "The internet service provider"
+    },
+    "answer": "B",
+    "explanation": "The cloud service provider (e.g., AWS, Azure, Google Cloud) owns and manages all physical facilities, power, cooling, and hardware maintenance.",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 17,
+    "question": "Which bar graph correctly compares initial infrastructure cost of cloud computing and a traditional data center?",
+    "options": {
+      "A": "Cloud: Low Initial Cost (30) | Traditional: High Initial Cost (90)",
+      "B": "Cloud: 60 | Traditional: 60",
+      "C": "Cloud: 90 | Traditional: 90",
+      "D": "Cloud: High Initial Cost (90) | Traditional: Low Initial Cost (30)"
+    },
+    "answer": "A",
+    "explanation": "Cloud computing shifts costs from heavy upfront capital expenditure (CapEx) to variable pay-as-you-go operating expense (OpEx).",
+    "category": "Cloud Fundamentals & Evolution",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 18,
+    "question": "Virtualization allows one physical computer or server to work like:",
+    "options": {
+      "A": "A cloud storage bucket",
+      "B": "Multiple separate computers",
+      "C": "A mobile phone only",
+      "D": "A single faster printer"
+    },
+    "answer": "B",
+    "explanation": "Virtualization abstracts physical hardware, enabling a single physical machine to run multiple independent virtual machines simultaneously.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 19,
+    "question": "A Virtual Machine (VM) is best described as:",
+    "options": {
+      "A": "A network cable",
+      "B": "A physical server in a rack",
+      "C": "A software-based computer inside another computer",
+      "D": "A type of database"
+    },
+    "answer": "C",
+    "explanation": "A VM is a software emulation of a physical computer with its own virtual CPU, memory, storage, and guest operating system.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 20,
+    "question": "Which software layer creates VMs and allocates CPU, RAM and storage to them?",
+    "options": {
+      "A": "Hypervisor",
+      "B": "Load balancer",
+      "C": "Compiler",
+      "D": "Browser"
+    },
+    "answer": "A",
+    "explanation": "A hypervisor (Virtual Machine Monitor) manages physical hardware resources and allocates them among isolated guest virtual machines.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 21,
+    "question": "A Type 1 hypervisor is also called:",
+    "options": {
+      "A": "Bare-metal hypervisor",
+      "B": "Container engine",
+      "C": "Hosted hypervisor",
+      "D": "Storage gateway"
+    },
+    "answer": "A",
+    "explanation": "Type 1 hypervisors run directly on the bare host hardware without an intermediate host operating system.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 22,
+    "question": "A Type 2 hypervisor runs:",
+    "options": {
+      "A": "Only on mobile phones",
+      "B": "On top of an existing host OS such as Windows, Linux or macOS",
+      "C": "Only inside containers",
+      "D": "Directly on hardware without any OS"
+    },
+    "answer": "B",
+    "explanation": "Type 2 (hosted) hypervisors run as software applications on top of a standard host operating system.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 23,
+    "question": "The diagram shows the stack Hardware, Hypervisor, Guest OS, App (bottom to top). Which type of hypervisor is this?",
+    "options": {
+      "A": "Para-container",
+      "B": "Type 2 (hosted)",
+      "C": "Type 1 (bare-metal)",
+      "D": "Container engine"
+    },
+    "answer": "C",
+    "explanation": "Because the hypervisor sits directly on top of the physical hardware with no underlying host OS, it is a Type 1 (bare-metal) hypervisor.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 24,
+    "question": "The diagram shows Hardware, Operating System, Hypervisor, Guest OS, App (bottom to top). Which type of hypervisor is this?",
+    "options": {
+      "A": "Type 1 (bare-metal)",
+      "B": "Container engine",
+      "C": "Storage hypervisor",
+      "D": "Type 2 (hosted)"
+    },
+    "answer": "D",
+    "explanation": "In Type 2 virtualization, the hypervisor installs and runs on top of a base host Operating System.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 25,
+    "question": "Server virtualization divides:",
+    "options": {
+      "A": "One network into cables",
+      "B": "Many servers into one printer",
+      "C": "One database into files",
+      "D": "One physical server into multiple virtual servers"
+    },
+    "answer": "D",
+    "explanation": "Server virtualization divides physical server capacity into multiple independent virtual servers to maximize hardware utilization.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 26,
+    "question": "Which of these are real-life tools of full virtualization?",
+    "options": {
+      "A": "Amazon S3, EBS and EFS",
+      "B": "Docker, Podman and Terraform",
+      "C": "MySQL, MongoDB and Redis",
+      "D": "VMware ESXi, KVM and Hyper-V"
+    },
+    "answer": "D",
+    "explanation": "VMware ESXi, Linux KVM, and Microsoft Hyper-V are production hypervisors providing full hardware virtualization.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 27,
+    "question": "In para-virtualization, the special interfaces through which the guest OS cooperates with the hypervisor are called:",
+    "options": {
+      "A": "Buckets",
+      "B": "Hypercalls",
+      "C": "Namespaces",
+      "D": "Subnets"
+    },
+    "answer": "B",
+    "explanation": "In para-virtualization, the modified guest OS issues hypercalls directly to the hypervisor for privileged operations.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 28,
+    "question": "The diagram shows a Modified Guest OS above a Hypervisor. Which technique is this?",
+    "options": {
+      "A": "OS-level virtualization",
+      "B": "Storage virtualization",
+      "C": "Full virtualization",
+      "D": "Para-virtualization"
+    },
+    "answer": "D",
+    "explanation": "Para-virtualization requires the guest OS kernel to be modified so it is aware of the hypervisor and communicates via hypercalls.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 29,
+    "question": "OS-level virtualization creates multiple isolated environments that share:",
+    "options": {
+      "A": "One operating system kernel",
+      "B": "One separate guest OS each",
+      "C": "One physical keyboard",
+      "D": "One hypervisor per app"
+    },
+    "answer": "A",
+    "explanation": "OS-level virtualization (containers) runs multiple isolated user-space environments that share the single underlying host OS kernel.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 30,
+    "question": "Which pair are examples of containerization tools?",
+    "options": {
+      "A": "VMware and VirtualBox",
+      "B": "Terraform and Redis",
+      "C": "Hyper-V and ESXi",
+      "D": "Docker and Podman"
+    },
+    "answer": "D",
+    "explanation": "Docker and Podman are containerization platforms; VMware, VirtualBox, and Hyper-V are hypervisors for virtual machines.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 31,
+    "question": "Which statement is correct when comparing containers with VMs?",
+    "options": {
+      "A": "Containers always have their own guest OS",
+      "B": "Containers take longer to start",
+      "C": "Containers usually start faster and use fewer resources",
+      "D": "Containers usually have larger images"
+    },
+    "answer": "C",
+    "explanation": "Containers do not boot a full guest OS, allowing them to spin up in seconds and consume significantly less RAM and disk space.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 32,
+    "question": "If a university's physical server stops working and its hosted VMs and website also stop, which limitation of virtualization is this?",
+    "options": {
+      "A": "Better resource utilization",
+      "B": "Easy backup",
+      "C": "Single point of failure",
+      "D": "Cost reduction"
+    },
+    "answer": "C",
+    "explanation": "Consolidating multiple workloads onto one physical host introduces a single point of failure unless failover clustering is configured.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 33,
+    "question": "Server virtualization reduces electricity and cooling needs mainly because:",
+    "options": {
+      "A": "The hypervisor generates power",
+      "B": "Fewer physical servers are needed",
+      "C": "Servers become wireless",
+      "D": "VMs do not use CPU"
+    },
+    "answer": "B",
+    "explanation": "Consolidating many virtual machines onto fewer physical machines drastically lowers data center power draw and cooling overhead.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 34,
+    "question": "Cloud services are best defined as:",
+    "options": {
+      "A": "Software that works only offline",
+      "B": "Hardware that you must buy and install",
+      "C": "Computing resources and applications provided by a cloud provider over the Internet",
+      "D": "Cables used in a data center"
+    },
+    "answer": "C",
+    "explanation": "Cloud services deliver on-demand computing power, storage, networking, and applications over the Internet on a pay-as-you-go model.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 35,
+    "question": "Traditionally, a university needing a server for its Student Management System would have to do which of the following?",
+    "options": {
+      "A": "Buy a server, install an OS, set up networking, and hire maintenance staff",
+      "B": "Only create an API key",
+      "C": "Only click a subscribe button",
+      "D": "Only upload files to Gmail"
+    },
+    "answer": "A",
+    "explanation": "Traditional deployment required procurement, physical space, OS installation, network configuration, and ongoing IT administration.",
+    "category": "Virtualization & Containerization",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 36,
+    "question": "IaaS provides:",
+    "options": {
+      "A": "Only a coding language",
+      "B": "Complete finished applications like Gmail",
+      "C": "Only physical cables",
+      "D": "Basic computing infrastructure such as virtual servers, storage and networking"
+    },
+    "answer": "D",
+    "explanation": "Infrastructure as a Service (IaaS) provides virtualized computing resources like EC2 virtual servers, VPC networking, and EBS storage.",
+    "category": "Cloud Service Models (IaaS, PaaS, SaaS)",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 37,
+    "question": "PaaS is a ready-to-use environment for:",
+    "options": {
+      "A": "Developing, testing and deploying applications",
+      "B": "Repairing hardware",
+      "C": "Reading e-mails",
+      "D": "Buying physical servers"
+    },
+    "answer": "A",
+    "explanation": "Platform as a Service (PaaS) provides development frameworks, runtimes, and deployment pipelines without infrastructure management.",
+    "category": "Cloud Service Models (IaaS, PaaS, SaaS)",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 38,
+    "question": "When you use Gmail without buying a server or maintaining anything, you are using:",
+    "options": {
+      "A": "Private hardware",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "SaaS"
+    },
+    "answer": "D",
+    "explanation": "Software as a Service (SaaS) delivers fully functional software applications accessible over a browser with zero maintenance.",
+    "category": "Cloud Service Models (IaaS, PaaS, SaaS)",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 39,
+    "question": "A developer uploads a Python web application and the cloud provider runs it. Which model is this?",
+    "options": {
+      "A": "SaaS",
+      "B": "PaaS",
+      "C": "IaaS",
+      "D": "Colocation"
+    },
+    "answer": "B",
+    "explanation": "In PaaS (e.g., AWS Elastic Beanstalk, Heroku), the developer supplies the application code while the platform manages OS, scaling, and runtime.",
+    "category": "Cloud Service Models (IaaS, PaaS, SaaS)",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 40,
+    "question": "Which pie correctly matches each service model with its example from the slides?",
+    "options": {
+      "A": "IaaS: Python app upload, PaaS: Gmail, SaaS: VM on AWS",
+      "B": "IaaS: Gmail, PaaS: VM on AWS, SaaS: Python app upload",
+      "C": "IaaS: Gmail, PaaS: Python app upload, SaaS: VM on AWS",
+      "D": "IaaS: VM on AWS, PaaS: Python app upload, SaaS: Gmail"
+    },
+    "answer": "D",
+    "explanation": "IaaS provides virtual machines (e.g. EC2/VM on AWS), PaaS manages application runtimes (uploading Python app), and SaaS delivers ready software (Gmail).",
+    "category": "Cloud Service Models (IaaS, PaaS, SaaS)",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 41,
+    "question": "Cloud architecture is best described as:",
+    "options": {
+      "A": "A backup tape",
+      "B": "The blueprint of a cloud system",
+      "C": "A type of hard disk",
+      "D": "A programming language"
+    },
+    "answer": "B",
+    "explanation": "Cloud architecture represents the structural blueprint that integrates frontend clients, backend servers, storage, databases, and network components.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 42,
+    "question": "When you open the AWS Management Console in a browser, you are using the:",
+    "options": {
+      "A": "Backend",
+      "B": "Data center",
+      "C": "Hypervisor",
+      "D": "Frontend"
+    },
+    "answer": "D",
+    "explanation": "The frontend comprises the user interface, web portal, command-line interface, and APIs through which users interact with cloud services.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 43,
+    "question": "Amazon EBS is an example of:",
+    "options": {
+      "A": "Object storage",
+      "B": "Relational database",
+      "C": "File storage",
+      "D": "Block storage"
+    },
+    "answer": "D",
+    "explanation": "Amazon EBS provides persistent block-level storage volumes for use with EC2 instances. Amazon S3 is object storage; EFS is file storage.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is a NoSQL database mentioned in the architecture slides?",
+    "options": {
+      "A": "PostgreSQL",
+      "B": "DynamoDB",
+      "C": "SQL Server",
+      "D": "MySQL"
+    },
+    "answer": "B",
+    "explanation": "Amazon DynamoDB is a fully managed NoSQL key-value and document database. MySQL, PostgreSQL, and SQL Server are relational databases.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 45,
+    "question": "A web server is placed in a public subnet and the database in a private subnet. Which diagram shows this correctly?",
+    "options": {
+      "A": "Public subnet: Web Server | Private subnet: Database",
+      "B": "Public subnet: Database | Private subnet: Web Server",
+      "C": "Public subnet: Web Server & Database | Private subnet: Empty",
+      "D": "Public subnet: Empty | Private subnet: Web Server & Database"
+    },
+    "answer": "A",
+    "explanation": "Best security practices place internet-facing web servers in public subnets while isolating sensitive databases in private subnets.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 46,
+    "question": "If 10,000 students access an online examination system at the same time, which component distributes requests among multiple application servers?",
+    "options": {
+      "A": "DNS cable",
+      "B": "Load balancer",
+      "C": "Object bucket",
+      "D": "Firewall rule"
+    },
+    "answer": "B",
+    "explanation": "A load balancer evenly distributes incoming web traffic across multiple backend servers to prevent overload and ensure high availability.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 47,
+    "question": "A username/password and MFA are examples of:",
+    "options": {
+      "A": "Authentication",
+      "B": "Encryption at rest",
+      "C": "Authorization",
+      "D": "Load balancing"
+    },
+    "answer": "A",
+    "explanation": "Authentication verifies the identity of a user or system; authorization specifies what resources that authenticated user is permitted to access.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 48,
+    "question": "Data moving across a network is called:",
+    "options": {
+      "A": "Data in cache only",
+      "B": "Data at rest",
+      "C": "Data in transit",
+      "D": "Data at backup"
+    },
+    "answer": "C",
+    "explanation": "Data in transit (data in flight) is data actively moving across a network; data at rest refers to static data stored on disk.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 49,
+    "question": "Increasing from 1 server to 3 servers to 10 servers is an example of:",
+    "options": {
+      "A": "Virtualization",
+      "B": "Vertical scaling",
+      "C": "Elasticity only",
+      "D": "Horizontal scaling"
+    },
+    "answer": "D",
+    "explanation": "Horizontal scaling (scaling out) adds more server instances to distribute load, while vertical scaling (scaling up) increases the specs of a single server.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 50,
+    "question": "Which bar graph shows vertical scaling of one server's RAM from 4 GB to 16 GB?",
+    "options": {
+      "A": "Before: 4 GB RAM, After: 16 GB RAM (same server upgraded)",
+      "B": "Before: 4 GB, After: 4 GB",
+      "C": "Before: 16 GB, After: 16 GB",
+      "D": "Before: 16 GB, After: 4 GB"
+    },
+    "answer": "A",
+    "explanation": "Vertical scaling increases the computing capacity (such as RAM, CPU cores, or storage) of an existing single server instance.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 51,
+    "question": "What is the difference between scalability and elasticity?",
+    "options": {
+      "A": "Elasticity is a type of database",
+      "B": "Scalability means reducing servers only; elasticity means buying hardware",
+      "C": "Scalability is the ability to handle increased workload; elasticity is resources adjusting automatically with demand",
+      "D": "They are exactly the same thing"
+    },
+    "answer": "C",
+    "explanation": "Scalability describes system capacity to grow with increasing load; elasticity is the automated, dynamic provisioning and de-provisioning based on real-time traffic.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 52,
+    "question": "An Availability Zone (AZ) is:",
+    "options": {
+      "A": "A user group in IAM",
+      "B": "A type of storage tier",
+      "C": "An isolated location within a cloud region containing one or more data centers",
+      "D": "A programming interface"
+    },
+    "answer": "C",
+    "explanation": "An AZ is one or more discrete data centers with redundant power, networking, and connectivity within an AWS/cloud Region.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 53,
+    "question": "A hybrid cloud combines:",
+    "options": {
+      "A": "A private cloud with a public cloud",
+      "B": "A community cloud with a printer",
+      "C": "Only on-premises servers",
+      "D": "Two public clouds only"
+    },
+    "answer": "A",
+    "explanation": "A hybrid cloud bridges private on-premises infrastructure with public cloud environments, enabling data and workload portability.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 54,
+    "question": "In a hybrid cloud, the private cloud is mainly used for:",
+    "options": {
+      "A": "Sensitive data and applications that need more control",
+      "B": "Printing documents",
+      "C": "Free public websites only",
+      "D": "Applications needing flexibility only"
+    },
+    "answer": "A",
+    "explanation": "Organizations keep mission-critical or regulated confidential data in their private cloud while bursting non-sensitive or high-scale tasks to the public cloud.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 55,
+    "question": "Several hospitals share infrastructure designed for healthcare requirements. This is an example of:",
+    "options": {
+      "A": "Multi-cloud",
+      "B": "Community cloud",
+      "C": "Personal cloud",
+      "D": "Hybrid cloud"
+    },
+    "answer": "B",
+    "explanation": "A community cloud is shared by several organizations with shared concerns, regulatory frameworks, compliance requirements, or missions.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 56,
+    "question": "In the multi-cloud university example, which provider manages user identities and access?",
+    "options": {
+      "A": "Oracle only",
+      "B": "Google Cloud",
+      "C": "AWS",
+      "D": "Microsoft Azure"
+    },
+    "answer": "D",
+    "explanation": "In the multi-cloud architecture example, AWS hosts the public website, Microsoft Azure handles IAM/identity management, and Google Cloud performs data analytics.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 57,
+    "question": "Which pie correctly shows the multi-cloud university example from the slides?",
+    "options": {
+      "A": "AWS: identity, Azure: website, Google Cloud: research data analytics",
+      "B": "AWS: website, Azure: identity, Google Cloud: research data analytics",
+      "C": "AWS: identity, Azure: research data analytics, Google Cloud: website",
+      "D": "AWS: research data analytics, Azure: identity, Google Cloud: website"
+    },
+    "answer": "B",
+    "explanation": "Multi-cloud leverages best-of-breed services: AWS for web hosting, Azure Active Directory for identity, and Google Cloud BigQuery for analytics.",
+    "category": "Cloud Architecture & Deployment Models",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 58,
+    "question": "Amazon S3 is mainly an example of:",
+    "options": {
+      "A": "Object storage",
+      "B": "Block storage",
+      "C": "File storage",
+      "D": "Relational database"
+    },
+    "answer": "A",
+    "explanation": "Amazon S3 (Simple Storage Service) is highly scalable cloud object storage for files, media assets, backups, and data lakes.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 59,
+    "question": "Which step of cloud storage checks your identity and permissions before you upload or access a file?",
+    "options": {
+      "A": "Data protection",
+      "B": "Authentication and authorization",
+      "C": "Data replication",
+      "D": "Data travels through the internet"
+    },
+    "answer": "B",
+    "explanation": "Identity and Access Management verifies user authentication (identity) and authorization (access policy/bucket permissions) before granting file access.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 60,
+    "question": "Each object in object storage contains:",
+    "options": {
+      "A": "Only fixed-size blocks",
+      "B": "Data, metadata and a unique identifier",
+      "C": "Only folders",
+      "D": "Only a password"
+    },
+    "answer": "B",
+    "explanation": "Object storage stores files as unstructured objects consisting of the raw payload data, custom metadata attributes, and a unique globally addressing key.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 61,
+    "question": "Which storage divides data into fixed-sized blocks and is used for VM operating system disks?",
+    "options": {
+      "A": "File storage",
+      "B": "Archive-only storage",
+      "C": "Block storage",
+      "D": "Object storage"
+    },
+    "answer": "C",
+    "explanation": "Block storage (e.g. Amazon EBS) splits data into sector blocks without file structure, offering high IOPS ideal for VM boot disks and databases.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 62,
+    "question": "All teachers in a department access the same shared folder of lecture notes. Which storage type is this?",
+    "options": {
+      "A": "File storage",
+      "B": "Tape storage",
+      "C": "Object storage",
+      "D": "Block storage"
+    },
+    "answer": "A",
+    "explanation": "File storage (e.g. Amazon EFS, NFS) provides hierarchical folder/directory structures accessible simultaneously across multiple networked clients.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 63,
+    "question": "Protocols such as NFS or SMB are commonly used with:",
+    "options": {
+      "A": "Object storage",
+      "B": "Block storage",
+      "C": "Serverless functions",
+      "D": "File storage"
+    },
+    "answer": "D",
+    "explanation": "Network File System (NFS) and Server Message Block (SMB) are standard network file-sharing protocols used by cloud file storage services.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 64,
+    "question": "In services such as Amazon S3, a bucket is:",
+    "options": {
+      "A": "A logical container used to organize objects",
+      "B": "A type of VM",
+      "C": "A network firewall",
+      "D": "A physical hard disk"
+    },
+    "answer": "A",
+    "explanation": "An S3 bucket is a top-level logical container that holds stored objects and controls access policies, replication, and lifecycle rules.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 65,
+    "question": "What is the difference between replication and backup?",
+    "options": {
+      "A": "Replication keeps copies on different systems for availability and durability; backup is a separate recoverable copy used to restore data",
+      "B": "They are identical terms",
+      "C": "Replication deletes data; backup copies it",
+      "D": "Backup is only for databases; replication is only for VMs"
+    },
+    "answer": "A",
+    "explanation": "Replication copies data in real time across systems for high availability; backup creates point-in-time snapshots for disaster recovery.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 66,
+    "question": "Changing a student's marks from 70 to 85 is which database operation?",
+    "options": {
+      "A": "Read",
+      "B": "Update",
+      "C": "Delete",
+      "D": "Create"
+    },
+    "answer": "B",
+    "explanation": "The CRUD operations are Create (insert new), Read (select/view), Update (modify existing), and Delete (remove).",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 67,
+    "question": "In a relational database table, each row represents:",
+    "options": {
+      "A": "The whole database",
+      "B": "One SQL command",
+      "C": "One column type",
+      "D": "One record, such as one student"
+    },
+    "answer": "D",
+    "explanation": "In relational tables, each horizontal row (tuple) represents a single distinct entity record, while vertical columns represent entity attributes.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 68,
+    "question": "NoSQL is commonly explained as:",
+    "options": {
+      "A": "Network Only SQL",
+      "B": "Not Only SQL",
+      "C": "No SQL Allowed",
+      "D": "New Server Query Language"
+    },
+    "answer": "B",
+    "explanation": "NoSQL stands for 'Not Only SQL', indicating non-tabular databases built for flexible schemas, high throughput, and horizontal scaling.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 69,
+    "question": "Which pairing of NoSQL type and popular example is correct?",
+    "options": {
+      "A": "Wide-column - Redis",
+      "B": "Graph - MongoDB",
+      "C": "Document - Neo4j",
+      "D": "Key-value - Redis"
+    },
+    "answer": "D",
+    "explanation": "Key-value = Redis, Document = MongoDB, Wide-column = Apache Cassandra, Graph = Neo4j.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 70,
+    "question": "Which pie correctly matches each NoSQL type with its popular example?",
+    "options": {
+      "A": "Document: MongoDB, Key-value: Redis, Wide-column: Apache Cassandra, Graph: Neo4j",
+      "B": "Document: Cassandra, Key-value: Redis, Wide-column: MongoDB, Graph: Neo4j",
+      "C": "Document: Redis, Key-value: MongoDB, Wide-column: Cassandra, Graph: Neo4j",
+      "D": "Document: MongoDB, Key-value: Neo4j, Wide-column: Cassandra, Graph: Redis"
+    },
+    "answer": "A",
+    "explanation": "Standard categorization: MongoDB is a document store, Redis is an in-memory key-value cache/store, Cassandra is wide-column, and Neo4j is graph.",
+    "category": "Cloud Storage & Databases",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 71,
+    "question": "What is the main purpose of an IP address in a network?",
+    "options": {
+      "A": "To store files in the cloud",
+      "B": "To encrypt data at rest",
+      "C": "A unique numerical address that identifies a device on a network",
+      "D": "To increase RAM of a server"
+    },
+    "answer": "C",
+    "explanation": "An IP address is a logical numerical label assigned to every device connected to a computer network for identification and location addressing.",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 72,
+    "question": "Which of the following is a private IP address?",
+    "options": {
+      "A": "8.8.8.8",
+      "B": "192.168.1.10",
+      "C": "203.0.113.5",
+      "D": "142.250.1.1"
+    },
+    "answer": "B",
+    "explanation": "RFC 1918 private IPv4 ranges are 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. 8.8.8.8 is Google's public DNS.",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 73,
+    "question": "Which device connects different networks and forwards data packets between them using IP addresses?",
+    "options": {
+      "A": "Router",
+      "B": "Switch",
+      "C": "Hub",
+      "D": "Repeater"
+    },
+    "answer": "A",
+    "explanation": "A router operates at OSI Layer 3 (Network Layer) and routes packets between distinct IP networks based on IP routing tables.",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 74,
+    "question": "Which device connects multiple devices inside the same local network (LAN) and forwards frames using MAC addresses?",
+    "options": {
+      "A": "Router",
+      "B": "Modem",
+      "C": "Firewall",
+      "D": "Switch"
+    },
+    "answer": "D",
+    "explanation": "A network switch operates at OSI Layer 2 (Data Link Layer) and forwards data frames between devices on the same local subnet using MAC addresses.",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 75,
+    "question": "A subnet is defined as 10.0.1.0/24. How many total IP addresses does this CIDR block contain?",
+    "options": {
+      "A": "24",
+      "B": "128",
+      "C": "256",
+      "D": "1024"
+    },
+    "answer": "C",
+    "explanation": "A /24 subnet mask leaves 32 - 24 = 8 host bits. Total IP addresses = 2^8 = 256 addresses (in cloud subnets, 5 are reserved by providers).",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 76,
+    "question": "In a VPC, what is the role of an Internet Gateway?",
+    "options": {
+      "A": "It stores backups of the VPC",
+      "B": "It allows resources in the VPC to communicate with the Internet",
+      "C": "It encrypts all traffic automatically",
+      "D": "It assigns MAC addresses to VMs"
+    },
+    "answer": "B",
+    "explanation": "An Internet Gateway (IGW) provides a redundant target in your VPC route tables for internet-routable traffic, enabling public subnets to connect to the Internet.",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 77,
+    "question": "A database server in a private subnet needs to download software updates from the Internet, but must not be reachable from the Internet. Which component is used?",
+    "options": {
+      "A": "NAT gateway",
+      "B": "Internet-facing load balancer",
+      "C": "Public DNS record",
+      "D": "Object bucket"
+    },
+    "answer": "A",
+    "explanation": "A NAT (Network Address Translation) Gateway enables instances in private subnets to initiate outbound traffic to the Internet while blocking unsolicited inbound connections.",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 78,
+    "question": "What does DNS do in cloud networking?",
+    "options": {
+      "A": "Encrypts data in transit",
+      "B": "Balances load among servers",
+      "C": "Assigns private IP ranges to subnets",
+      "D": "Translates domain names into IP addresses"
+    },
+    "answer": "D",
+    "explanation": "The Domain Name System (DNS, e.g. Amazon Route 53) translates human-readable domain names (like example.com) into numerical IP addresses.",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 79,
+    "question": "Which service creates an encrypted tunnel over the Internet to securely connect an on-premises network to a cloud VPC?",
+    "options": {
+      "A": "Content Delivery Network",
+      "B": "Object storage",
+      "C": "VPN",
+      "D": "Auto scaling group"
+    },
+    "answer": "C",
+    "explanation": "An IPSec VPN (Virtual Private Network) establishes an encrypted network tunnel connecting an enterprise on-premises data center securely to a cloud VPC.",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  },
+  {
+    "id": 80,
+    "question": "A security group in cloud networking acts as:",
+    "options": {
+      "A": "A group of IAM users",
+      "B": "A virtual firewall that controls inbound and outbound traffic of instances",
+      "C": "A physical router in the data center",
+      "D": "A backup policy for databases"
+    },
+    "answer": "B",
+    "explanation": "A security group acts as a stateful virtual firewall for instances, specifying inbound and outbound allow rules for protocols, port numbers, and CIDR IP ranges.",
+    "category": "Cloud Networking & Security",
+    "course": "cc",
+    "courseName": "Cloud Computing"
+  }
+]
